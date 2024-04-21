@@ -172,6 +172,25 @@
 
   {
     "level": 1,
+    "name": "Burning Touch",
+    "school": "Evocation",
+    "class": "Wizard",
+    "verbal": true,
+    "somatic": true,
+    "material": false,
+    "materials": "",
+    "range": "Self",
+    "aoe": "Hand",
+    "castingTime": "1",
+    "duration": "1 round / level",
+    "save": "Half",
+    "damage": "",
+    "description": "The caster's hand bursts into flame, but causing them no damage or pain. A hit with the burning hand on a creature does 1d2. A grab that hits but fails to hold does 1d4. A successful grab and hold does 1d8. If a full round of burning is applied, 1d12 damage is rolled. Aside from these uses, the hand can be used to set fires and acts as normal flame. Can be ended at will, but any unused duration is lost. Spell ends if the caster loses consciousness or is stunned. Sheds light in 10 feet.",
+    "source": "Koibu"
+  },
+
+  {
+    "level": 1,
     "name": "Cantrip",
     "school": "Enchantment",
     "class": "Wizard",
