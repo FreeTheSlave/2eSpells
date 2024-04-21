@@ -253,16 +253,11 @@ for(var i = 0; i < sphereButtons.length; i++){
 }
 
 // God buttons
-var godNames = ["Astair", "Martha", "Voraci", "Malkis", "Tempos", "Nadinis", "Felumbra", "Illumis", "Relkor", "Agepa", "Aaris", "Bellum", "Chis", "Mathis/Safia", "Efra", "Jexel", "Matrigal", "Nerual", "Ponos", "Quantarious", "Reluna", "Sayor", "Solt", "Terrasa", "Terrin", "Velmontarious", "Velthara", "Womaatoar", "Electricity"];
+var godNames = ["Kaileth", "Mirvena", "Fel'Umbra"];
 
-tr = document.getElementById("koibu-table").insertRow();
-for(let i = 0; i < 28; i++){
+tr = document.getElementById("deity-table").insertRow();
+for(let i = 0; i < 3; i++){
     appendButton(tr.insertCell(), "godButton", godNames[i]);
-}
-
-tr = document.getElementById("science-table").insertRow();
-for(let i = 28; i < 29; i++){
-    appendButton(tr.insertCell(), "godButton", godNames[i])
 }
 
 // God button listeners
@@ -286,45 +281,59 @@ for(var i = 0; i < godButtons.length; i++){
     });
 }
 
-// 0 = don't care, 1 = major, 2 = minor
+// 0 = N/A, 1 = major, 2 = minor
 // All/Animal/Astral/Chaos/Charm/Combat/Creation/Divination/Air/Earth/Fire/Water/Guardian/Healing/Law/Necromantic/Numbers/Plant/Protection/Summoning/Sun/Thought/Time/Travelers/War/Wards/Weather
 var godFilterArray = [
-    [1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 2, 1, 1, 2, 1, 0, 2, 2, 0, 1, 0, 0, 2, 2, 0], // Astair
-    [1, 1, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 2], // Martha
-    [1, 0, 1, 2, 1, 1, 0, 2, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0], // Voraci
-    [1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 2, 0, 1, 0, 1, 0, 0, 1, 0, 0], // Malkis -
-    [1, 0, 1, 0, 0, 0, 0, 2, 1, 1, 1, 1, 0, 2, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1], // Tempos
-    [1, 1, 1, 0, 0, 2, 2, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 2, 1, 0, 1, 0, 0, 0, 1], // Nadinis
-    [1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1], // Felumbra -
-    [1, 1, 1, 0, 0, 0, 2, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1], // Illumis
-    [1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1], // Relkor -
-    [1, 1, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1], // Agepa
-    [1, 0, 1, 1, 0, 0, 0, 1, 2, 2, 2, 2, 1, 1, 1, 0, 0, 2, 1, 0, 0, 1, 0, 0, 0, 0, 1], // Aaris
-    [1, 0, 0, 2, 2, 1, 0, 1, 0, 0, 0, 0, 2, 1, 2, 1, 2, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1], // Bellum
-    [1, 2, 0, 0, 1, 0, 0, 2, 1, 1, 1, 1, 0, 1, 0, 1, 0, 2, 1, 0, 0, 1, 1, 0, 0, 2, 0], // Chis
-    [1, 2, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 2, 0, 0, 1, 0, 0, 0, 0, 1, 1, 2, 0, 2, 0], // Dorbaff/Guam
-    [1, 1, 1, 0, 1, 0, 1, 2, 2, 2, 2, 2, 0, 0, 2, 1, 1, 1, 0, 0, 2, 1, 0, 0, 0, 0, 0], // Efra
-    [1, 2, 0, 1, 1, 0, 0, 2, 2, 2, 2, 2, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0], // Jexel
-    [1, 0, 1, 0, 2, 2, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 2, 1, 0], // Matrigal
-    [1, 2, 0, 2, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 2, 1, 0, 1, 0, 0, 1, 0, 1, 0], // Nerual
-    [1, 0, 1, 0, 1, 1, 0, 2, 1, 1, 1, 1, 0, 0, 2, 1, 0, 0, 2, 1, 0, 1, 0, 0, 1, 0, 0], // Ponos
-    [1, 0, 1, 0, 0, 2, 2, 1, 2, 2, 2, 2, 0, 0, 1, 0, 1, 0, 2, 0, 0, 1, 0, 1, 0, 1, 1], // Quantarious
-    [1, 0, 1, 1, 1, 1, 0, 2, 0, 0, 0, 0, 2, 1, 1, 0, 0, 0, 2, 0, 0, 1, 0, 2, 2, 0, 1], // Reluna
-    [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0], // Sayor
-    [1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1], // Solt
-    [1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1], // Terrasa
-    [1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 2, 0, 2, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1], // Terrin
-    [1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 2, 1, 0, 0, 0, 0, 0], // Velmontarious
-    [1, 2, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 2, 2, 0, 1, 0, 2, 2, 1, 0, 2, 1, 0, 0, 0, 0], // Velthara
-    [1, 1, 0, 0, 1, 0, 1, 0, 2, 2, 2, 2, 0, 1, 0, 2, 0, 2, 0, 0, 1, 2, 1, 1, 0, 1, 0], // Womaatoar
+    [1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 2, 1, 1, 2, 1, 0, 2, 2, 0, 1, 0, 0, 2, 2, 0], // Kaileth
+    [1, 1, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 2], // Mirvena
+    [1, 0, 1, 2, 1, 1, 0, 2, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0], // Fel'Umbra
+];
 
-    [0, 0, 0, 1, 0, 1, 2, 2, 1, 1, 2, 0, 0, 2, 0, 1, 2, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1] // Electricity
+// God buttons
+var godNames = ["Fel'Umbra", "Atha'Myr", "Ler'Han", "Izshalma", "Najha'Wynn", "Valnis", "Zu'Jal", "Jascala", "Lukuma", "Xuryula", "Yurlatha", "Ul'Thetar"];
 
-    // [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Khorne
-    // [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Tzeentch
-    // [1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 2, 0, 1, 0, 0, 0, 0, 1, 0, 0], // Nurgle
-    // [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Slaanesh -
-    // [1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 2, 0], // Emperor
+
+tr = document.getElementById("ancient-table").insertRow();
+for(let i = 0; i < 12; i++){
+    appendButton(tr.insertCell(), "godButton", godNames[i]);
+}
+
+// God button listeners
+var godButtons = document.getElementsByClassName("godButton");
+for(var i = 0; i < godButtons.length; i++){
+    godButtons[i].addEventListener("click", function(){
+        this.value++;
+        this.value = mod(this.value, 2);
+        this.style.backgroundColor = buttonColors[this.value];
+        
+        godUpdate(this);
+    });
+
+    godButtons[i].addEventListener("contextmenu", function(e){
+        e.preventDefault();
+        this.value--;
+        this.value = mod(this.value, 2);
+        this.style.backgroundColor = buttonColors[this.value];
+        
+        godUpdate(this);
+    });
+}
+
+// 0 = N/A, 1 = major, 2 = minor
+// All/Animal/Astral/Chaos/Charm/Combat/Creation/Divination/Air/Earth/Fire/Water/Guardian/Healing/Law/Necromantic/Numbers/Plant/Protection/Summoning/Sun/Thought/Time/Travelers/War/Wards/Weather
+var godFilterArray = [
+    [1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1], // Fel'Umbra
+    [1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 2, 1, 0, 0, 0, 0, 0, 1, 0], // Atha'Myr
+    [1, 1, 0, 0, 2, 0, 2, 0, 1, 1, 1, 1, 2, 2, 0, 0, 0, 1, 1, 0, 1, 0, 0, 2, 0, 0, 2], // Ler'Han
+    [1, 0, 0, 0, 0, 1, 0, 2, 1, 1, 1, 1, 1, 0, 2, 0, 0, 0, 1, 0, 0, 2, 2, 0, 1, 1, 0], // Izshalma
+    [1, 0, 2, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 2, 2, 0, 2, 0, 1, 0, 0, 0, 0, 1], // Najha'Wynn
+    [1, 0, 2, 2, 0, 2, 0, 0, 1, 1, 1, 1, 0, 0, 0, 2, 0, 0, 0, 1, 2, 0, 1, 1, 0, 0, 1], // Valnis
+    [1, 0, 1, 0, 0, 1, 0, 2, 1, 1, 1, 1, 1, 2, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 2, 2], // Zu'Jal 
+    [1, 0, 2, 0, 1, 0, 2, 2, 1, 1, 1, 1, 2, 0, 0, 1, 0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 1], // Jascala
+    [1, 0, 0, 2, 0, 1, 1, 2, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 2, 0, 0, 2, 0, 0, 0, 0], // Lukuma
+    [1, 0, 2, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 1, 0, 1, 1, 0, 0, 0, 2], // Xuryula
+    [1, 0, 0, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 2], // Yurlatha
+    [1, 0, 0, 1, 2, 1, 0, 0, 1, 1, 1, 1, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 1, 2, 0, 2, 1], // Ul'Thetar
 ];
 
 function godUpdate(element){
