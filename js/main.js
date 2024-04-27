@@ -252,6 +252,20 @@ for(var i = 0; i < sphereButtons.length; i++){
     sphereButtons[i].addEventListener("contextmenu", function(e){ rightClickGradient(e, this) });
 }
 
+// Sphere button listeners 2
+var sphereButtons2 = document.getElementsByClassName("sphereButton");
+for(var i = 0; i < sphereButtons2.length; i++){
+    sphereButtons2[i].addEventListener("click", function(){ leftClickGradient(this) });
+    sphereButtons2[i].addEventListener("contextmenu", function(e){ rightClickGradient(e, this) });
+}
+
+// Sphere button listeners 3
+var sphereButtons3 = document.getElementsByClassName("sphereButton");
+for(var i = 0; i < sphereButtons2.length; i++){
+    sphereButtons3[i].addEventListener("click", function(){ leftClickGradient(this) });
+    sphereButtons3[i].addEventListener("contextmenu", function(e){ rightClickGradient(e, this) });
+}
+
 // God buttons
 var godNames = ["Kaileth", "Mirvena", "Fel'Umbra"];
 
@@ -284,56 +298,9 @@ for(var i = 0; i < godButtons.length; i++){
 // 0 = N/A, 1 = major, 2 = minor
 // All/Animal/Astral/Chaos/Charm/Combat/Creation/Divination/Air/Earth/Fire/Water/Guardian/Healing/Law/Necromantic/Numbers/Plant/Protection/Summoning/Sun/Thought/Time/Travelers/War/Wards/Weather
 var godFilterArray = [
-    [1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 2, 1, 1, 2, 1, 0, 2, 2, 0, 1, 0, 0, 2, 2, 0], // Kaileth
-    [1, 1, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 2], // Mirvena
-    [1, 0, 1, 2, 1, 1, 0, 2, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0], // Fel'Umbra
-];
-
-// God buttons
-var godNames = ["Fel'Umbra", "Atha'Myr", "Ler'Han", "Izshalma", "Najha'Wynn", "Valnis", "Zu'Jal", "Jascala", "Lukuma", "Xuryula", "Yurlatha", "Ul'Thetar"];
-
-
-tr = document.getElementById("ancient-table").insertRow();
-for(let i = 0; i < 12; i++){
-    appendButton(tr.insertCell(), "godButton", godNames[i]);
-}
-
-// God button listeners
-var godButtons = document.getElementsByClassName("godButton");
-for(var i = 0; i < godButtons.length; i++){
-    godButtons[i].addEventListener("click", function(){
-        this.value++;
-        this.value = mod(this.value, 2);
-        this.style.backgroundColor = buttonColors[this.value];
-        
-        godUpdate(this);
-    });
-
-    godButtons[i].addEventListener("contextmenu", function(e){
-        e.preventDefault();
-        this.value--;
-        this.value = mod(this.value, 2);
-        this.style.backgroundColor = buttonColors[this.value];
-        
-        godUpdate(this);
-    });
-}
-
-// 0 = N/A, 1 = major, 2 = minor
-// All/Animal/Astral/Chaos/Charm/Combat/Creation/Divination/Air/Earth/Fire/Water/Guardian/Healing/Law/Necromantic/Numbers/Plant/Protection/Summoning/Sun/Thought/Time/Travelers/War/Wards/Weather
-var godFilterArray = [
+    [1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0], // Kaileth
+    [1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1], // Mirvena
     [1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1], // Fel'Umbra
-    [1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 2, 1, 0, 0, 0, 0, 0, 1, 0], // Atha'Myr
-    [1, 1, 0, 0, 2, 0, 2, 0, 1, 1, 1, 1, 2, 2, 0, 0, 0, 1, 1, 0, 1, 0, 0, 2, 0, 0, 2], // Ler'Han
-    [1, 0, 0, 0, 0, 1, 0, 2, 1, 1, 1, 1, 1, 0, 2, 0, 0, 0, 1, 0, 0, 2, 2, 0, 1, 1, 0], // Izshalma
-    [1, 0, 2, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 2, 2, 0, 2, 0, 1, 0, 0, 0, 0, 1], // Najha'Wynn
-    [1, 0, 2, 2, 0, 2, 0, 0, 1, 1, 1, 1, 0, 0, 0, 2, 0, 0, 0, 1, 2, 0, 1, 1, 0, 0, 1], // Valnis
-    [1, 0, 1, 0, 0, 1, 0, 2, 1, 1, 1, 1, 1, 2, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 2, 2], // Zu'Jal 
-    [1, 0, 2, 0, 1, 0, 2, 2, 1, 1, 1, 1, 2, 0, 0, 1, 0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 1], // Jascala
-    [1, 0, 0, 2, 0, 1, 1, 2, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 2, 0, 0, 2, 0, 0, 0, 0], // Lukuma
-    [1, 0, 2, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 1, 0, 1, 1, 0, 0, 0, 2], // Xuryula
-    [1, 0, 0, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 2], // Yurlatha
-    [1, 0, 0, 1, 2, 1, 0, 0, 1, 1, 1, 1, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 1, 2, 0, 2, 1], // Ul'Thetar
 ];
 
 function godUpdate(element){
@@ -353,6 +320,136 @@ function godUpdate(element){
     updateFilter();
 }
 
+
+
+
+
+// God buttons
+var godNames2 = ["Fel'Umbra", "Atha'Myr", "Ler'Han", "Izshalma", "Najha'Wynn", "Valnis", "Zu'Jal", "Jascala", "Lukuma", "Xuryula", "Yurlatha", "Ul'Thetar"];
+
+
+tr = document.getElementById("ancient-table").insertRow();
+for(let i = 0; i < 12; i++){
+    appendButton(tr.insertCell(), "godButton2", godNames2[i]);
+}
+
+// God button listeners
+var godButtons2 = document.getElementsByClassName("godButton2");
+for(var i = 0; i < godButtons2.length; i++){
+    godButtons2[i].addEventListener("click", function(){0.
+        this.value++;
+        this.value = mod(this.value, 2);
+        this.style.backgroundColor = buttonColors[this.value];
+        
+        godUpdate2(this);
+    });
+
+    godButtons2[i].addEventListener("contextmenu", function(e){
+        e.preventDefault();
+        this.value--;
+        this.value = mod(this.value, 2);
+        this.style.backgroundColor = buttonColors[this.value];
+        
+        godUpdate2(this);
+    });
+}
+
+// 0 = N/A, 1 = major, 2 = minor
+// All/Animal/Astral/Chaos/Charm/Combat/Creation/Divination/Air/Earth/Fire/Water/Guardian/Healing/Law/Necromantic/Numbers/Plant/Protection/Summoning/Sun/Thought/Time/Travelers/War/Wards/Weather
+var godFilterArray2 = [
+    [1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1], // Fel'Umbra
+    [1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 2, 1, 0, 0, 0, 0, 0, 1, 0], // Atha'Myr
+    [1, 1, 0, 0, 2, 0, 2, 0, 1, 1, 1, 1, 2, 2, 0, 0, 0, 1, 1, 0, 1, 0, 0, 2, 0, 0, 2], // Ler'Han
+    [1, 0, 0, 0, 0, 1, 0, 2, 1, 1, 1, 1, 1, 0, 2, 0, 0, 0, 1, 0, 0, 2, 2, 0, 1, 1, 0], // Izshalma
+    [1, 0, 2, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 2, 2, 0, 2, 0, 1, 0, 0, 0, 0, 1], // Najha'Wynn
+    [1, 0, 2, 2, 0, 2, 0, 0, 1, 1, 1, 1, 0, 0, 0, 2, 0, 0, 0, 1, 2, 0, 1, 1, 0, 0, 1], // Valnis
+    [1, 0, 1, 0, 0, 1, 0, 2, 1, 1, 1, 1, 1, 2, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 2, 2], // Zu'Jal 
+    [1, 0, 2, 0, 1, 0, 2, 2, 1, 1, 1, 1, 2, 0, 0, 1, 0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 1], // Jascala
+    [1, 0, 0, 2, 0, 1, 1, 2, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 2, 0, 0, 2, 0, 0, 0, 0], // Lukuma
+    [1, 0, 2, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 1, 0, 1, 1, 0, 0, 0, 2], // Xuryula
+    [1, 0, 0, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 2], // Yurlatha
+    [1, 0, 0, 1, 2, 1, 0, 0, 1, 1, 1, 1, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 1, 2, 0, 2, 1], // Ul'Thetar
+];
+
+function godUpdate2(element){
+    value = element.value;
+    clearButtons();
+    setButton2(element, buttonColors, value);
+    setButton2(classButtons[0], buttonColors, value);
+
+    var index2 = godNames2.indexOf(element.id);
+    if(value == 1){
+        for(var i = 0; i < sphereButtons2.length; i++){
+            sphereButtons2[i].value = godFilterArray2[index2][i];
+            sphereButtons2[i].style.backgroundColor = sphereColors[sphereButtons2[i].value];
+        }
+    }
+    
+    updateFilter2();
+}
+
+
+
+
+// God buttons
+var godNames3 = ["Kryxallaz", "Orrax", "Thoraq", "Burathu", "Kuric’Kal"];
+
+
+tr = document.getElementById("bonded-table").insertRow();
+for(let i = 0; i < 5; i++){
+    appendButton(tr.insertCell(), "godButton3", godNames3[i]);
+}
+
+// God button listeners
+var godButtons3 = document.getElementsByClassName("godButton3");
+for(var i = 0; i < godButtons3.length; i++){
+    godButtons3[i].addEventListener("click", function(){0.
+        this.value++;
+        this.value = mod(this.value, 2);
+        this.style.backgroundColor = buttonColors[this.value];
+        
+        godUpdate3(this);
+    });
+
+    godButtons3[i].addEventListener("contextmenu", function(e){
+        e.preventDefault();
+        this.value--;
+        this.value = mod(this.value, 2);
+        this.style.backgroundColor = buttonColors[this.value];
+        
+        godUpdate3(this);
+    });
+}
+
+// 0 = N/A, 1 = major, 2 = minor
+// All/Animal/Astral/Chaos/Charm/Combat/Creation/Divination/Air/Earth/Fire/Water/Guardian/Healing/Law/Necromantic/Numbers/Plant/Protection/Summoning/Sun/Thought/Time/Travelers/War/Wards/Weather
+var godFilterArray3 = [
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Kryxallaz
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Orrax
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Thoraq
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Burathu
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Kuric'Kal
+];
+
+function godUpdate3(element){
+    value = element.value;
+    clearButtons();
+    setButton3(element, buttonColors, value);
+    setButton3(classButtons[0], buttonColors, value);
+
+    var index3 = godNames3.indexOf(element.id);
+    if(value == 1){
+        for(var i = 0; i < sphereButtons3.length; i++){
+            sphereButtons3[i].value = godFilterArray3[index3][i];
+            sphereButtons3[i].style.backgroundColor = sphereColors[sphereButtons3[i].value];
+        }
+    }
+    
+    updateFilter3();
+}
+
+
+
 // Button updates
 
 function setButton(button, colors, value){
@@ -366,13 +463,38 @@ function setButtons(buttons, colors, value){
     }
 }
 
+function setButton2(button, colors, value){
+    button.value = value;
+    button.style.backgroundColor = colors[value];
+}
+
+function setButtons2(buttons, colors, value){
+    for(let i = 0; i < buttons.length; i++){
+        setButton2(buttons[i], colors, value);
+    }
+}
+
+function setButton3(button, colors, value){
+    button.value = value;
+    button.style.backgroundColor = colors[value];
+}
+
+function setButtons3(buttons, colors, value){
+    for(let i = 0; i < buttons.length; i++){
+        setButton3(buttons[i], colors, value);
+    }
+}
+
 function clearButtons(){
     setButtons(specialistButtons, buttonColors, 0);
     setButtons(sphereButtons, sphereColors, 0);
     setButtons(godButtons, buttonColors, 0);
+    setButtons(godButtons2, buttonColors, 0);
+    setButtons(godButtons3, buttonColors, 0);
     setButtons(classButtons, buttonColors, 0);
     setButtons(schoolButtons, buttonColors, 0);
 }
+
 
 // gray, blue
 function leftClickBinary(element){
@@ -423,6 +545,14 @@ function rightClickGradient(e, element){
 // Filter stuff
 
 function updateFilter(){
+    table.setFilter(customFilter);
+}
+
+function updateFilter2(){
+    table.setFilter(customFilter);
+}
+
+function updateFilter3(){
     table.setFilter(customFilter);
 }
 
