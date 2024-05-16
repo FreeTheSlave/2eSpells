@@ -3536,6 +3536,26 @@
 
   {
     "level": 3,
+    "name": "Frost Block",
+    "school": "Evocation",
+    "class": "Wizard",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materials": "",
+    "range": "Self",
+    "aoe": "Caster",
+    "castingTime": "3",
+    "duration": "1 rd/level",
+    "save": "None",
+    "damage": "",
+    "description": "",
+    "source": "Nathan"
+  },
+
+
+  {
+    "level": 3,
     "name": "Gust of Wind",
     "school": "Alteration",
     "class": "Wizard",
