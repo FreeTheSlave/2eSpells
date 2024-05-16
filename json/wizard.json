@@ -2833,6 +2833,25 @@
 
   {
     "level": 2,
+    "name": "Ring of Frost",
+    "school": "Evocation",
+    "class": "Wizard",
+    "verbal": true,
+    "somatic": true,
+    "material": false,
+    "materials": "",
+    "range": "15 ft. + 5 ft. for every 3 levels",
+    "aoe": "Caster",
+    "castingTime": "2",
+    "duration": "1 rd./level",
+    "save": "Negate",
+    "damage": "",
+    "description": "Upon casting this spell, a ring of frost errupts around the caster. The frost moves to form around anything in the AoE around the caster, up to 1/2 ft. high effectively rooting those in the AoE in place. Those passing their saving throw, may move over the area freely, yet cautiously (2x Moment is used). Those failing are rooted in place for the duration of the spell. Intense heat, like that from a fireball or a Red Dragon's breath, will immediately melt the ice. Given proper tools, a hammer or pick, it is possible to pick your way out of it. This takes 1 rd. + 1 rd per every 2 levels of the caster.",
+    "source": "Nathan"
+  },
+
+  {
+    "level": 2,
     "name": "Rope Trick",
     "school": "Alteration",
     "class": "Wizard",
