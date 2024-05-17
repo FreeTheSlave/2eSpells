@@ -3683,7 +3683,7 @@
     "duration": "1 rd/level",
     "save": "None",
     "damage": "",
-    "description": "Upon casting of this spell, the caster entombs themself in a block of ice. Once cast, the caster is trapped and protected in the entombment. While entombed in the ice, the caster is unable to speak, hear, or smell, but they are able to see. Inside the ice, the caster is protected from all manner of spells and attacks. The Ice block can absorb an amount of hit points in physical damage equal to the caster's HP, afterwhich the spell fades and any remaining damage is then dealt to the caster. Spells that do damage follow this same rule, though spells of ice and cold deal no damage. If struck by magical fire, the caster must save vs spell to see if the ice block dispells. Spells that affect based on mind or sight still affect the caster",
+    "description": "Upon casting of this spell, the caster entombs themself in a block of ice. Once cast, the caster is trapped and protected in the entombment. While entombed in the ice, the caster is unable to speak, hear, or smell, but they are able to see. Inside the ice, the caster is protected from all manner of spells and attacks. The Ice block can absorb an amount of hit points in physical damage equal to the caster's HP, afterwhich the spell fades and any remaining damage is then dealt to the caster. Spells that do damage follow this same rule, though spells of ice and cold deal no damage. If struck by magical fire, the caster must save vs spell to see if the ice block dispells. Spells that affect based on mind or sight still affect the caster.",
     "source": "Nathan"
   },    
 
