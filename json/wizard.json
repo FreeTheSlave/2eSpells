@@ -3534,25 +3534,6 @@
     "source": "Koibu"
   },
 
-  {
-    "level": 3,
-    "name": "Frost Block",
-    "school": "Evocation",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "",
-    "range": "Self",
-    "aoe": "Caster",
-    "castingTime": "3",
-    "duration": "1 rd/level",
-    "save": "None",
-    "damage": "",
-    "description": "",
-    "source": "Nathan"
-  },
-
 
   {
     "level": 3,
@@ -3686,6 +3667,25 @@
     "description": "When cast, this spell renders immobile 1d3 undead creatures whose total Hit Dice are equal to or less than the caster's level.\n\nNo more than three undead can be affected by a single spell. To cast, the wizard aims the spell at a point within range and the three undead closest  to this are considered to be in the area of effect, provided all are within the field of vision and spell range of the caster. \n\nUndead of a mindless nature (skeletons, zombies, or ghouls) are automatically affected. Other forms of undead are allowed a saving throw to negate the effect. \n\nIf the spell is successful, it renders the undead immobile for the duration of the spell.\n\nThe material component for this spell is a pinch of sulphur and powdered garlic.",
     "source": "PHB"
   },
+    
+  {
+    "level": 3,
+    "name": "Ice Block",
+    "school": "Evocation",
+    "class": "Wizard",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materials": "",
+    "range": "Self",
+    "aoe": "Caster",
+    "castingTime": "3",
+    "duration": "1 rd/level",
+    "save": "None",
+    "damage": "",
+    "description": "Upon casting of this spell, the caster entombs themself in a block of ice. Once cast, the caster is trapped and protected in the entombment. While entombed in the ice, the caster is unable to speak, hear, or smell, but they are able to see. Inside the ice, the caster is protected from all manner of spells and attacks. The Ice block can absorb an amount of hit points in physical damage equal to the caster's HP, afterwhich the spell fades and any remaining damage is then dealt to the caster. Spells that do damage follow this same rule, though spells of ice and cold deal no damage. If struck by magical fire, the caster must save vs spell to see if the ice block dispells. Spells that affect based on mind or sight still affect the caster",
+    "source": "Nathan"
+  },    
 
   {
     "level": 3,
