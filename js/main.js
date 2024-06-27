@@ -11,7 +11,7 @@ async function spellTable(){
 
 
     // Determines default sort (i.e. initial sort and base for header sorts)
-    let jsonData = wizardData.concat(bardData).sort(function(a, b){
+    let jsonData = wizardData.concat(clericData).sort(function(a, b){
         if(a.level != b.level){
             return a.level - b.level;
         } else if(a.name != b.name){
