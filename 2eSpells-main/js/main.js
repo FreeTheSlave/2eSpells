@@ -6,6 +6,8 @@ async function spellTable(){
     let wizardData = await wizard.json();
     const cleric = await fetch('json/cleric.json')
     let clericData = await cleric.json();
+    const cleric = await fetch('json/bard.json')
+    let clericData = await bard.json();
 
     // Determines default sort (i.e. initial sort and base for header sorts)
     let jsonData = wizardData.concat(clericData).sort(function(a, b){
