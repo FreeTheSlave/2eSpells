@@ -3463,25 +3463,6 @@
 
   {
     "level": 5,
-    "name": "Airy Water",
-    "school": "Alteration",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "a small handful of alkaline or bromine salts",
-    "range": "0",
-    "aoe": "10-ft. radius sphere or 15-ft. radius hemisphere",
-    "castingTime": "0",
-    "duration": "1 turn/level",
-    "save": "None",
-    "damage": "",
-    "description": "The airy water spell turns normal liquid, such as water or water-based solutions, into a less dense, breathable substance.\n\n\nThus, if the wizard wanted to enter an underwater place, he would step into the water, cast the spell and sink downward in a globe of bubbling water. He and any companions in the spells area of effect can move freely and breathe just as if the bubbling water were air. The globe is centered on and moves with the caster. \n\nWater-breathing creatures avoid a sphere (or hemisphere) of airy water, although intelligent ones can enter it if they are able to move by means other than swimming. No water-breathers can breathe in an area affected by this spell. \nThere is only one word that needs to be spoken to actuate the magic, thus it can be cast underwater. The spell does not filter or remove solid particles of matter.\n\nThe material component of the spell is a small handful of alkaline or bromine salts.",
-    "source": "PHB"
-  },
-
-  {
-    "level": 5,
     "name": "Animal Growth",
     "school": "Alteration",
     "class": "Wizard",
@@ -3536,25 +3517,6 @@
     "description": "This spell is similar to the 4th-level confusion spell, but only the following beings receive a saving throw: fighters, wizards specialized in enchantments, monsters that use no magic and have an Intelligence of 4 or less, creatures of 21 Intelligence or higher, and creatures with more levels or Hit Dice than the caster's level.\n\n\nThe spell causes disorientation and severe perceptual distortion, creating indecision and the inability to take effective action. The spell affects 1d4 creatures, plus one creature per caster level. Those allowed saving throws roll them vs. spell with -2 penalties, adjusted for Wisdom. Those who successfully save are unaffected by the spell. Affected creatures react as follows:\n\nOn a d10 roll of 1 the affected creatures wander away (unless prevented) for duration of spell\nOn a d10 roll of 2-6 the affected creatures stand confused one round (then roll again)\nOn a d10 roll of 7-9 the affected creatures attack nearest creature for one round (then roll again)\nOn a d10 roll of 10 the affected creatures act normally for one round (then roll again)\n\nThe spell lasts one round for each level of the caster. Those affected are checked by the DM for actions each round for the duration of the spell, or until the \"wander away for the duration of the spell\" result occurs.\n\nWandering creatures move as far from the caster as possible using their most typical mode of movement (characters walk, fish swim, bats fly, etc.). Saving throws and actions are checked at the beginning of each round. Any confused creature that is attacked perceives the attacker as an enemy and acts according to its basic nature.\n\nThe material component for this spell is a small disc of bronze and a small rod of iron.",
     "source": "PHB"
   },
-    
-  {
-    "level": 5,
-    "name": "Contact Other Plane",
-    "school": "Divination",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": false,
-    "material": false,
-    "materials": "",
-    "range": "0",
-    "aoe": "Special",
-    "castingTime": "1 turn",
-    "duration": "Special",
-    "save": "None",
-    "damage": "",
-    "description": "When this spell is cast, the wizard sends his mind to another plane of existence in order to receive advice and information from powers there. As these powers resent such contact, only brief answers are given. (The DM answers all questions with \"yes,\" \"no,\" \"maybe,\" \"never,\" \"irrelevant,\" etc.) Any questions asked are answered by the power during the spell's duration. The character can contact an elemental plane or some plane farther removed. For every two levels of experience of the wizard, one question may be asked. Contact with minds far removed from the plane of the wizard increases the probability of the spellcaster going insane or dying, but the chance of the power knowing the answer, as well as the probability of the being telling the correct answer, are likewise increased by moving to distant planes. Once the Outer Planes are reached, the Intelligence of the power contacted determines the effects.\n\n\nThe accompanying random table is subject to DM changes, development of extraplanar NPC beings, and so on.\n\nIf insanity occurs, it strikes as soon as the first question is asked. This condition lasts for one week for each removal of the plane contacted (see the DMG or the Planescape Campaign Setting boxed set), to a maximum of 10 weeks. There is a 1% chance per plane that the wizard dies before recovering, unless a remove curse spell is cast upon him. A surviving wizard can recall the answer to the question.\n\nOn rare occasions, this divination may be blocked by the action of certain lesser or greater powers.\n\nPlane               Insanity *  Knowledge  Veracity **\nElemental Plane     20%         55% (90%)  62% (75%)\nInner Plane         25%         60%        65%\nAstral Plane        30%         65%        67%\nOuter Plane, Int 19 35%         70%        70%\nOuter Plane, Int 20 40%         75%        73%\nOuter Plane, Int 21 45%         80%        75%\nOuter Plane, Int 22 50%         85%        78%\nOuter Plane, Int 23 55%         90%        81%\nOuter Plane, Int 24 60%         95%        85%\nOuter Plane, Int 25 65%         98%        90%\n\n* For every point of Intelligence over 15, the wizard reduces the chance of insanity by 5%.\n** If the being does not know an answer, and the chance of veracity is not made, the being will emphatically give an incorrect answer. If the chance of veracity is made, the being will answer “unknown.�?\n\nPercentages in parentheses are for questions that pertain to the appropriate elemental plane.\n\nOptional Rule\nThe DM may allow a specific Outer Plane to be contacted (see the Planescape Campaign Setting boxed set). In this case, the difference in alignment between the caster and the plane contacted alters the maximum Intelligence that can be contacted--each difference in moral or ethical alignment lowers the maximum Intelligence that can be contacted by 1. For example, an 18th-level lawful good caster could contact Mount Celestia (a lawful good plane) on the \"Intelligence 20\" line, or Elysium (a neutral good plane) on the \"Intelligence 19\" line.",
-    "source": "PHB"
-  },
 
   {
     "level": 5,
@@ -3573,26 +3535,7 @@
     "damage": "",
     "description": "This spell is similar to the 4th-level spell shadow monsters, except that the monsters created are effectively 40% of normal hit points. If the saving throw is made, their damage potential is only 40% of normal and their Armor Class is 8. The monsters have none of the special abilities of the real creatures, although victims may be deluded into believing this to be so.",
     "source": "PHB"
-  },
-
-  {
-    "level": 5,
-    "name": "Dimensional Anchor",
-    "school": "Alteration",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": false,
-    "materials": "",
-    "range": "10 yds./level",
-    "aoe": "1 creature",
-    "castingTime": "1",
-    "duration": "1 turn + 1 rd./level",
-    "save": "None",
-    "damage": "",
-    "description": "When a wizard casts this spell, a green ray springs from his outstretched hand and unerringly strikes a creature within line of sight and the range of the spell, covering the subject with a shimmering emerald field that completely blocks bodily extradimensional travel. Forms of movement barred by the dimensional anchor include blinking, dimension door, etherealness, gate, phasing, plane shift, maze, shadow walk, teleportation, and similar spell-like or psionic abilities. The field persists for one turn plus one round per caster level and has no effect other than blocking extradimensional travel. The dimensional anchor does not interfere with the movement of creatures in astral form, nor does it block extradimensional perception or attack forms such as a basilisk's gaze.",
-    "source": "S&M"
-  },
+  }
 
   {
     "level": 5,
@@ -3672,25 +3615,6 @@
 
   {
     "level": 5,
-    "name": "Fabricate",
-    "school": "Alteration",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "one full round per cubic yard (or foot) or material",
-    "range": "5 yds./level",
-    "aoe": "1 cu. yd./level",
-    "castingTime": "Special",
-    "duration": "Permanent",
-    "save": "None",
-    "damage": "",
-    "description": "By means of this spell, the wizard is able to convert material of one sort into a product that is of the same material. Thus, the spellcaster can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, clothes from flax or wool, and so forth. Magical or living things cannot be created or altered by a fabricate spell. The quality of items made by this spell is commensurate with the quality of material used as the basis for the new fabrication.\n\n\nMatter that was once living (wood, hemp, wool, etc.) can be affected in cubic yards per level. Matter that has never been living (stone, mud, metal, etc.) can be affected in cubic feet per level.\n\nArticles requiring a high degree of craftsmanship (jewelry, swords, glass, crystal, etc.) cannot be fabricated unless the wizard otherwise has great skill in the appropriate craft.\n\nCasting requires one full round per cubic yard (or foot) or material to be affected by the spell.",
-    "source": "PHB"
-  },
-
-  {
-    "level": 5,
     "name": "False Vision",
     "school": "Divination",
     "class": "Wizard",
@@ -3748,25 +3672,6 @@
 
   {
     "level": 5,
-    "name": "Khazid's Procurement",
-    "school": "Divination",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "exquisite silver mirror of no less than 10,000 gp value and a black opal worth at least 1,000 gp",
-    "range": "Special",
-    "aoe": "Special",
-    "castingTime": "1 turn",
-    "duration": "1 round/level",
-    "save": "None",
-    "damage": "",
-    "description": "This spell allows the caster to more easily access rare or dangerous spell components. The wizard casts this spell upon a silver mirror while concentrating on a mental image of the material he desires. The base chance of success is 50%, modified by the following factors:\n\n\n+1% per level of the caster\n+10% if the caster has seen the same type of substance or object before; this bonus is not cumulative with the following bonus\n+20% if the caster has a sample of the material or the same type of object in his possession; this bonus is not cumulative with the bonus above\n+30% if the wizard knows the location of the desired object\n-50% if the caster has never seen the same type of material or item before\n\nIf the percentile roll indicates failure, the caster is unable to locate the desired ingredient and the spell ends. If the roll indicates success, the wizard has located the object or substance and the mirror becomes a magical gate through which the caster can see the target. The size of the gate is determined by the size of the mirror, to a maximum size of 3 feet by 2 feet.\n\nThe gate always appears within arm's length of the target, allowing the wizard to reach through the mirror, grasp the object of his desire, and draw it back through the gate. The wizard must risk his own safety--the gate does not allow the use of probes, long-handled ladles, tongs, or other equipment to gather the material. The caster cannot move completely through the gate.\n\nThe gate vanishes when the spell's duration expires or when the target or the wizard moves more than 10' away from it.\n\nThe gate is visible from both sides, and other creatures can reach through the gate. Breath weapons, gaze attacks, missiles, spells, and similar attacks cannot be cast through the gate. Because creatures can pass their limbs through the gate, physical attacks and touch spells can be used.\n\nThe only limit to the range of this spell is that the caster and the target must be on the same plane of existence. Elemental forces (not creatures) will not pass through the gate. Thus, the wizard does not run the risk of flooding his laboratory by opening a gate beneath the sea, for example. However, the spell does not provide any sort of protection against a hostile environment.\n\nThe material components are an exquisite silver mirror of no less than 10,000 gp value and a black opal worth at least 1,000 gp which must be powdered and sprinkled on the mirror. The mirror is not lost after casting and may be used again, but the powdered opal is consumed in the casting.",
-    "source": "ToM"
-  },
-
-  {
-    "level": 5,
     "name": "Leomund's Lamentable Belaborment",
     "school": "Enchantment",
     "class": "Wizard",
@@ -3781,25 +3686,6 @@
     "save": "Special",
     "damage": "",
     "description": "This devious spell distracts the subject creatures by drawing them into an absorbing discussion on topics of interest to them. A chain of responses occurs during the next 11 rounds, with additional saving throws as described later. These responses are conversation (rounds 1-3), possible confusion (rounds 4-6), and then either rage or lamentation (rounds 7-11). All saving throws are affected by the creatures' Intelligences, as noted later. The subject creatures must be able to understand the language in which the spellcaster speaks.\n\n\nUpon casting the spell, the wizard begins discussion of some topic germane to the creature or creatures to be affected. Those making a successful saving throw vs. spell are unaffected. Affected creatures immediately begin to converse with the spellcaster, agreeing or disagreeing, all most politely. As long as the spellcaster chooses, he can maintain the spell by conversing with the subject(s). If the caster is attacked or otherwise distracted, the subject creatures do not notice.\n\nThe wizard can leave at any time after the casting and the subject(s) continue on as if the caster were still present. As long as they are not attacked, the creatures ignore all else going on around them, spending their time talking and arguing to the exclusion of other activities. However, when the caster leaves, each subject completes only the stage of the spell that it is currently in, and then the spell is broken.\n\nIf the caster maintains the spell for more than three rounds, each affected creature can roll another saving throw vs. spell. Those failing to save wander off in confusion for 1d10+2 rounds, staying away from the spellcaster. Those who make this saving throw continue to talk and roll saving throws for each round that the caster continues the spell, up through the sixth round, to avoid the confusion effect.\n\nIf the spell is maintained for more than six rounds, each subject must roll a successful saving throw vs. spell to avoid going into a rage, attacking all other subjects of the spell with intent to kill. This rage lasts for 1d4+1 rounds. Those who successfully save against the rage effect realize that they have been deceived and collapse to the ground, lamenting their foolishness, for 1d4 rounds unless attacked or otherwise disturbed.",
-    "source": "PHB"
-  },
-
-  {
-    "level": 5,
-    "name": "Leomund's Secret Chest",
-    "school": "Conjuration",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "The chest",
-    "range": "Special",
-    "aoe": "One chest, about 2 x 2 x 3 ft.",
-    "castingTime": "1 turn",
-    "duration": "60 days",
-    "save": "None",
-    "damage": "",
-    "description": "This spell enables a specially constructed chest to be hidden deep within the Ethereal Plane, to be summoned using a small model of the chest. The large chest must be exceptionally well-crafted and expensive, constructed for the caster by master craftsmen. If made principally of wood, it must be ebony, rosewood, sandalwood, teak, or the like, and all of its corner fittings, nails, and hardware must be platinum. If constructed of ivory, the metal fittings of the chest must be gold. If the chest is fashioned from bronze, copper, or silver, its fittings must be electrum or silver. The cost of such a chest is never less than 5,000 gp. Once it is constructed, the wizard must have a tiny replica (of the same materials and perfect in every detail) made, so that the miniature of the chest appears to be a perfect copy. One wizard can have but one pair of these chests at any given time--even wish spells do not allow exceptions! The chests themselves are nonmagical, and can be fitted with locks, wards, and so on, just as any normal chest.\n\n\nWhile touching the chest and holding the tiny replica, the caster chants the spell. This causes the large chest to vanish into the Ethereal Plane. The chest can contain 1 cubic foot of material per level of the wizard no matter what its apparent size. Living matter makes it 75% likely that the spell fails, so the chest is typically used for securing valuable spell books, magical items, gems, etc. As long as the spellcaster has the small duplicate of the magical chest, he can recall the large one from the Ethereal Plane whenever the chest is desired. If the miniature of the chest is lost or destroyed, there is no way, not even with a wish spell, that the large chest can return, although an expedition might be mounted to find it.\n\nWhile the chest is in the Ethereal Plane, there is a cumulative 1% chance per week that some being finds it. This chance is reset to 1% whenever the chest is recalled and the spell recast to return it to the Ethereal Plane. If the chest is found, the DM must work out the encounter and decide how the being reacts to the chest (for example, it might ignore the chest, fully or partially empty it, or even exchange or add to the items present!).\n\nWhenever the secret chest is brought back to the Prime Material Plane, an ethereal window is opened for a variable amount of time (usually about one turn); the window slowly diminishes in size. When this hole opens between the planes, check for an ethereal encounter to see if a monster is drawn through.\n\nIf the large chest is not retrieved before the spell duration lapses, there is a cumulative chance of 5% per day that the chest is lost.",
     "source": "PHB"
   },
 
@@ -3857,25 +3743,6 @@
     "save": "None",
     "damage": "",
     "description": "This spell is much like the 3rd-level spell monster summoning I, except that this spell summons 1d4 3rd-level monsters. These appear within the spell's area of effect and attack the caster's opponents, until either he commands them to cease, the spell duration expires, or the monsters are slain. These creatures do not check morale and vanish when slain. If no opponent exists to fight, and the wizard can communicate with them, the summoned monsters can perform other services for the wizard.\n\n\nThe material components of this spell are a tiny bag and a small candle.",
-    "source": "PHB"
-  },
-    
-  {
-    "level": 5,
-    "name": "Passwall",
-    "school": "Alteration",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "a pinch of sesame seeds.",
-    "range": "30 yds.",
-    "aoe": "5 x 8 x 10 ft.",
-    "castingTime": "5",
-    "duration": "1 hr. + 1 turn/level",
-    "save": "None",
-    "damage": "",
-    "description": "A passwall spell enables the spellcaster to open a passage through wooden, plaster, or stone walls, but not other materials. The spellcaster and any associates can simply walk through. The spell causes a 5-foot wide x 8-foot high x 10-foot deep opening. Several of these spells can form a continuing passage so that very thick walls can be pierced. If dispelled, the passwall closes away from the dispelling caster, ejecting those in the passage.\n\n\nThe material component of this spell is a pinch of sesame seeds.",
     "source": "PHB"
   },
 
@@ -3938,44 +3805,6 @@
 
   {
     "level": 5,
-    "name": "Shadow Magic",
-    "school": "Illusion",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": false,
-    "materials": "",
-    "range": "50 yds. + 10 yds./level",
-    "aoe": "Special",
-    "castingTime": "5",
-    "duration": "Special",
-    "save": "Special",
-    "damage": "",
-    "description": "The shadow magic spell enables the wizard to tap energy from the Demiplane of Shadow to cast a quasi-real wizard evocation spell of 3rd level or less. For example, this spell can be magic missile, fireball, lightning bolt, or so on, and has normal effects upon creatures in the area of effect if they fail their saving throws vs. spell.\n\n\nThus, a creature failing to save against a shadow magic fireball must roll another saving throw. If the latter roll is successful, the creature suffers half the normal fireball damage; if the roll is not successful, the creature suffers full normal fireball damage. If the first saving throw was successful, the shadow magic nature is detected and only 20% of the rolled damage is received (rounding down below fractions below .4 and rounding up fractions of .4 and above).",
-    "source": "PHB"
-  },
-
-  {
-    "level": 5,
-    "name": "Stone Shape",
-    "school": "Alteration",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "soft clay",
-    "range": "Touch",
-    "aoe": "1 cu. ft./level",
-    "castingTime": "1 rd.",
-    "duration": "Permanent",
-    "save": "None",
-    "damage": "",
-    "description": "By means of this spell, the wizard can form an existing piece of stone into a shape that suits his purposes. For example, the wizard can make a stone weapon, a special trapdoor, an idol, etc. This spell can also enable the spellcaster to reshape a stone door so as to escape imprisonment, providing the volume of stone involved is within the limits of the area of effect. While the caster can thus create stone doors and coffers, the fineness of detail is not great. If the construction involves small moving parts, there is a 30% chance they do not function.\n\n\nThe material component of this spell is soft clay that must be worked into roughly the desired shape of the stone object and then touched to the stone when the spell is uttered.",
-    "source": "PHB"
-  },
-
-  {
-    "level": 5,
     "name": "Telekinesis",
     "school": "Alteration",
     "class": "Wizard",
@@ -4010,25 +3839,6 @@
     "damage": "",
     "description": "A wall of force spell creates an invisible barrier in the locale desired by the caster, up to the spell's range. The wall of force cannot move and is totally unaffected by most spells, including dispel magic. However, a disintegrate spell will immediately destroy it, as will a rod of cancellation or a sphere of annihilation. Likewise, the wall of force is not affected by blows, missiles, cold, heat, electricity, etc. Spells and breath weapons cannot pass through it in either direction, although dimension door, teleport, and similar effects can bypass the barrier.\n\n\nThe wizard can, if desired, form the wall into a spherical shape with a radius of up to 1 foot per level or an open hemispherical shape with a radius of 1.5 feet per caster level. The wall of force must be continuous and unbroken when formed; if its surface is broken by any object or creature, the spell fails. The caster can end the spell on command.\n\nThe material component for this spell is a pinch of powdered diamond worth 5,000 gp.",
     "source": "PHB"
-  },
-
-  {
-    "level": 5,
-    "name": "Waltraud's Wall of Wonder",
-    "school": "Illusion",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "1 mithril / sqft",
-    "range": "Touch",
-    "aoe": "Special",
-    "castingTime": "Special",
-    "duration": "Permanent",
-    "save": "None",
-    "damage": "",
-    "description": "The great, powerful, and aged Waltraud created this spell to replace wall sections in her manor with one way windows that also functioned as emergency escape routes. Glass was removed, and the Wall of Wonder (also known as the Waltraud's One Way Window) was cast in it's place. From the inside, this section is mostly transparent and can be walked through. Any object or creature passing through the wall disrupts the wall for 1 round. Casual inspection from the inside shows the form and some visual details of the illusion. From the outside, the wall appears to conforms to the surface details of the surrounding wall, up to and including touch and pressure. The wall will physically resist outside pressure, impact, and forces as if made from the same material surrounding it with a thickness of one inch. Thus a Wall of Wonder will look, feel, and behave as a real wall would to one on the outside, but act as an opening to one on the inside.\n\n\nThis spell must be cast in such a way as to seal or plug a hole in an otherwise functional wall, tunnel, portal, etc. It must connect with real and solid materials on all 4 sides made of the same material. Should a section of wall or material that the spell connects to be destroyed or removed, the spell fizzles. The wall provides no support to things above, below, beside or behind it. For example, the spell could fill a stone doorway, but not a stone doorway with a wooden threshold or baseboard. \n\nMissile fire through the wall from the inside is possible, as is spell casting, but either of these actions will cause the illusion to vanish for 1 round. Should the illusion rematerialize while something is in it's path, it will spend another round inactive.\n\nHorses, dogs, and other simple animals may be confused or spooked by semitransparent nature of the wall (from the inside) and may hesitate to pass through it unless they are carefully coaxed. Like all things, once an animal becomes used to the wall, it may pass through it with only minor hesitation. Training a war horse to charge, or a messenger bird to fly, through Waltraud's Wall of Wonder is difficult.\n\nThe accompanying 2nd level, \"Reveal Wonderous Walls\" spell disrupts Waltraud's Wall of Wonder if cast directly on a segment of the wall. Detect magic cast from the outside will not reveal the wonderous nature of the wall. An Identify spell cast on a wall segment will reveal its nature, but is impractical for finding hidden wall segments as its casting time is so long and its materials so expensive.\n\nTo cast the spell, first the caster outlines a 1 foot square section with both hands while speaking the words, then they blow mithril dust onto that segment of wall before moving onto the next area and repeating the process until the whole wall is done. All segments must be completed in one casting and without interruption. Interruption breaks the casting, fizzling the existing wall sections. The wall may be no smaller than 1 square foot, no larger than 300 square feet. For every 1 hour of casting, the caster must make a constitution check to maintain the exact detail of concentration. Failure indicates the caster has made a small mistake the the spell fails.",
-    "source": "Koibu"
   },
 
   {
@@ -4071,120 +3881,6 @@
 
   {
     "level": 6,
-    "name": "Contingency",
-    "school": "Evocation",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "quicksilver and an eyelash",
-    "range": "0",
-    "aoe": "The caster",
-    "castingTime": "1 turn",
-    "duration": "1 day/level",
-    "save": "None",
-    "damage": "",
-    "description": "By means of this spell, the wizard is able to place another spell upon his person so that the latter spell will come into effect under the conditions dictated during the casting of the contingency spell. The contingency spell and the spell it is to bring into effect are cast at the same time (the one-turn casting time indicated is the total for both castings).\n\n\nThe spell to be brought into effect by the prescribed contingency must be one that affects the wizard's person (feather fall, levitation, fly, feign death, etc.) and be of a spell level no higher than 1/3 of the caster's experience level (rounded down), but not higher than the 6th spell level. (See book for table ).\n\nOnly one contingency spell can be placed on the spellcaster at any one time; if a second is cast, the first one (if still active) is cancelled. The conditions needed to bring the spell into effect must be clear, although they can be rather general. For example, a contingency spell cast with an airy water spell might prescribe that any time the wizard is plunged into or otherwise engulfed in water or similar liquid, the airy water spell will instantly come into effect. Or a contingency could bring a feather fall spell into effect any time the wizard falls more than 2 feet. In all cases, the contingency immediately brings into effect the second spell, the latter being \"cast\" instantaneously when the prescribed circumstances occur. Note that if complicated or convoluted conditions are prescribed, the whole spell complex (the contingency spell and the companion magic) may fail when called upon.\n\nThe material components of this spell are (in addition to those of the companion spell) 100gp worth of quicksilver and an eyelash of an ogre mage, ki-rin, or similar spell-using creature. In addition, the spell requires a statuette of the wizard carved from elephant ivory (which is not destroyed, though it is subject to wear and tear), which must be carried on the person of the spellcaster for the contingency spell to perform its function when called upon.",
-    "source": "PHB"
-  },
-
-  {
-    "level": 6,
-    "name": "Control Weather",
-    "school": "Abjuration",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "burning incense and bits of earth",
-    "range": "0",
-    "aoe": "4d4 sq. mi.",
-    "castingTime": "1 turn",
-    "duration": "4d6 hrs.",
-    "save": "None",
-    "damage": "",
-    "description": "The control weather spell enables a wizard to change the weather in the local area. The spell affects the weather for 4d6 hours in an area of 4d4 square miles. It requires one turn to cast the spell, and an additional 1d4 turns for the weather conditions to occur. The current weather conditions are decided by the DM, depending on the climate and season.\n\nWeather conditions have three components: precipitation, temperature, and wind. The spell can change these conditions according to the following chart.\n\nThe upper-cased headings represent the existing weather conditions. The small headings beneath each large heading are the new conditions to which the caster can change the existing conditions. Furthermore, the caster can control the direction of the wind. For example, a day that is clear and warm with moderate wind can be controlled to become hazy, hot, and calm. Contradictions are not possible--fog and strong wind, for example. Multiple control weather spells can be used only in succession.\n\nThe material components for this spell are burning incense and bits of earth and wood mixed in water. Obviously, this spell functions only in areas where there are appropriate climatic conditions.",
-    "source": "PHB"
-  },
-
-  {
-    "level": 6,
-    "name": "Demishadow Magic",
-    "school": "Illusion",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": false,
-    "materials": "",
-    "range": "60 yds. + 10 yds./level",
-    "aoe": "Special",
-    "castingTime": "6",
-    "duration": "Special",
-    "save": "Special",
-    "damage": "1d2/level",
-    "description": "This spell is similar to the 5th-level shadow magic spell, but this spell enables the casting of partially real 4th- and 5th level evocations (cone of cold, wall of fire, wall of ice, cloudkill, etc.). If recognized as demishadow magic (if a saving throw vs. spell is successful), damaging spells inflict only 40% of normal damage, with a minimum of 2 points per die of damage. A demishadow magic cloudkill slays creatures with fewer than 2 Hit Dice and inflicts 1d2 points of damage per round.",
-    "source": "PHB"
-  },
-
-  {
-    "level": 6,
-    "name": "Ensnarement",
-    "school": "Conjuration",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": false,
-    "materials": "",
-    "range": "10 yds.",
-    "aoe": "Special",
-    "castingTime": "1 turn",
-    "duration": "Special",
-    "save": "Negate",
-    "damage": "",
-    "description": "Casting this spell attempts a dangerous act: to lure a powerful creature from another plane to a specifically prepared trap, where it will be held until it agrees to perform one service in return for freedom from the ensnarement spell. The type of creature to be ensnared must be known and stated, and if it has a specific, proper, or given name, this must be used in casting the ensnarement spell. The spell causes an awareness of a gatelike opening on the plane of the creature to be ensnared. A special saving throw is then made to determine if the creature detects the nature of the planar opening as a trap or believes it to be a gate. To save, the creature must roll equal to or less than its Intelligence score on 1d20. The score is modified by the difference between the creature's Intelligence and that of the spellcaster. If the creature has a higher score, the difference is subtracted from its dice roll to save. If the spellcaster has a higher score, the difference is added to the dice roll.\n\n\nIf the saving throw succeeds, the creature ignores the spell-created opening, and the spell fails. If the saving throw fails, the creature steps into the opening and is ensnared.\n\nWhen so trapped, the otherplanar creature can freely attack the ensnaring wizard, unless the caster has created a warding circle. Such circles may be temporary (drawn by hand) or permanent (inlaid or carved). Even with such protection, the entrapped creature may break free and wreak its vengeance upon the spellcaster.\n\nA hand-drawn circle has a base failure chance of 20%, while one inlaid or carved has a base of 10% (and that is for the first time it is used, to determine whether or not the job was done properly). The base chance is modified by the difference between the wizard's combined Intelligence and experience level and the Intelligence and the experience level or Hit Dice of the creature ensnared. If the spellcaster has a higher total, that difference in percentage points is subtracted from the chance for the creature to break free. If the creature has a higher total, that difference is added to its chance to break free.\n\nThe chance can be further reduced by careful preparation of the circle. If the handmade circle is drawn over a longer period of time, using specially prepared pigments (1,000 gp value per turn spent drawing), the chance of breaking free is reduced by 1% for every turn spent in preparation. This can bring the base chance to 0%.\n\nSimilarly, an inlaid or carved design can be brought to a 0% chance of the creature breaking free by inlaying with various metals, minerals, etc. This cost will require a minimum of one full month of time and add not less than 50,000 gp to the basic cost of having the circle inlaid or carved into stone. Any break in the circle spoils the efficacy of the spell and enables the creature to break free automatically. Even a straw dropped across the line of a magic circle destroys its power. Fortunately, the creature within cannot so much as place a straw upon any portion of the inscribed ward, for the magic of the barrier absolutely prevents it.\n\nOnce safely ensnared, the creature can be kept for as long as the spellcaster dares. (Remember the danger of something breaking the ward!) The creature cannot leave the circle, nor can any of its attacks or powers penetrate the barrier. The caster can offer bribes, use promises, or make threats in order to exact one service from the captive creature.\n\nThe DM will then assign a value to what the wizard has said to the ensnared creature, rating it from 0 to 6 (with 6 being the most persuasive). This rating is then subtracted from the Intelligence score of the creature. If the creature rolls a successful Intelligence check against its adjusted Intelligence, it refuses service. New offers, bribes, etc., can be made, or the old ones re-offered 24 hours later, when the creature's Intelligence has dropped by 1 point due to confinement. This can be repeated until the creature promises to serve, until it breaks free, or until the caster decides to get rid of it by means of some riddance spell. Impossible demands or unreasonable commands are never agreed to.\n\nOnce the single service is completed, the creature need only so inform the spellcaster to be instantly sent from whence it came. The creature might later seek revenge.",
-    "source": "PHB"
-  },
-
-  {
-    "level": 6,
-    "name": "Etherealness",
-    "school": "Evocation",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": false,
-    "materials": "",
-    "range": "Touch",
-    "aoe": "Creature(s) touched",
-    "castingTime": "1",
-    "duration": "1 hr./level",
-    "save": "Negate",
-    "damage": "",
-    "description": "By means of this spell, the wizard and up to six other creatures joined by linked hands become ethereal (along with their equipment). While ethereal, the group need not stay together. The group's presence can be detected only by detect phase, true seeing, or similar spells and effects. No physical, or magical attack can affect him, unless his assailant is ethereal as well (although some monsters, such as basilisk, have gaze weapons whose power extends into the ethereal plane). The spell recipients are actually in the Border ethereal and can still perceive their physically surroundings, but the world appears gray, misty, and indistinct to them. Note that as ethereal creatures can perceive the physically world here, a character could scout out his surroundings or make good an escape from the safety of the Border ethereal.\n\n\nThe wizard and his companions may remain in the border ethereal for up to normal existence, although the wizard can choose to end the spell before its full duration. The wizard also has the option the Deep ethereal, in which case they remain ethereal when the spell ends. He will have to use this spell again or find another way back in order to return to his home plane. \n\nThe wizard can attempt to use etherealness to banish an unwilling subject. He must make a successful attack roll in order to touch him, and the subject receives a saving throw vs. spell to negate the effect. An unwilling subject automatically remains in the Border ethereal for an amount of time specified by the wizard at the time of the casting, but no more than one hour per caster level. When used like this, etherealness does not affect the caster, only the subject. ",
-    "source": "S&M"
-  },
-
-  {
-    "level": 6,
-    "name": "Eyebite",
-    "school": "Enchantment",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": false,
-    "materials": "",
-    "range": "20 yds.",
-    "aoe": "1 creature",
-    "castingTime": "6",
-    "duration": "1 round/3 levels",
-    "save": "Special",
-    "damage": "",
-    "description": "An eyebite spell enables the caster to merely meet the gaze of a creature and speak a single word to cause an effect. This gaze attack is in addition to any other attacks allowed to the wizard. The wizard selects one of four possible gaze attacks at the time the spell is cast, and this attack cannot be changed. For example, a 12th-level caster who chose fear would have four opportunities to make gaze attacks causing fear, one for each round of the spell's duration. Any gaze attack is negated by a successful saving throw vs. spell, with Wisdom adjustments. The four effects of the spell are as follows:\n\n\nCharm: The wizard can charm a single person or monster by gaze and by uttering a single word. The effect is to make the charmed subject absolutely loyal and docile to the caster, even to the point of personal danger. It is otherwise the same as a charm monster spell. All creatures other than humans, demihumans, and humanoids save with +2 bonuses.\n\nFear: The wizard can cause fear by gaze and by speaking a single word. The subject flees in blind terror for 1d4 rounds. After this, the creature refuses to face the caster and cowers or bolts for the nearest cover if subsequently confronted by the caster (50% chance of either). The latter effect lasts one turn per caster level. This attack can be negated by spells that counter fear.\n\nSicken: This power enables the caster to merely gaze, speak, a word, and cause sudden pain and fever to sweep over the subject's body. Creatures with ability scores function at half effectiveness; others inflict only one-half damage with physical attacks. Movement is at one-half normal rate. The subject remains stricken for one turn per level of the caster, after which all abilities return at the rate of one point per turn of complete rest or one point per hour of moderate activity. The effects cannot be negated by a cure disease or heal spell, but a remove curse or successful dispel magic spell is effective. Creatures other than humans, demihumans, and humanoids save with +2 bonuses versus this attack.\n\nSleep: The wizard can cause any individual to fall into a comatose slumber by means of a gaze and a single word, unless the subject successfully rolls its saving throw vs. spell. Creatures normally subject to a 1st-level sleep spell save with -2 penalties. An affected creature must be shaken or otherwise shocked back to consciousness.\n\nIn all cases, the gaze attack has a speed factor of 1. This spell does not affect undead of any type, or extend beyond the plane occupied by the caster. Note that the caster is subject to the effects of his reflected gaze and is allowed any applicable saving throw. In the case of a reflected charm gaze, the caster is paralyzed until it wears off or is countered.",
-    "source": "PHB"
-  },
-
-  {
-    "level": 6,
     "name": "Geas",
     "school": "Enchantment",
     "class": "Wizard",
@@ -4199,44 +3895,6 @@
     "save": "None",
     "damage": "",
     "description": "A geas spell places a magical command upon a creature (usually human or humanoid) to carry out some service, or to refrain from some action or course of activity, as desired by the spellcaster. The creature must be intelligent, conscious, under its own volition, and able to understand the caster. While a geas cannot compel a creature to kill itself or perform acts that are likely to result in certain death, it can cause almost any other course of action. The geased creature must follow the given instructions until the geas is completed. Failure to do so will cause the creature to grow sick and die within 1d4 weeks. Deviation from or twisting of the instructions causes a corresponding loss of Strength points until the deviation ceases. A geas can be done away with by a wish spell, but a dispel magic or remove curse spell will not negate it. Your DM will decide any additional details of a geas, for its casting and fulfillment are tricky, and an improperly cast geas is ignored.",
-    "source": "PHB"
-  },
-
-  {
-    "level": 6,
-    "name": "Glassee",
-    "school": "Alteration",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "a small piece of crystal or glass.",
-    "range": "Touch",
-    "aoe": "Special",
-    "castingTime": "1 rd.",
-    "duration": "1 rd./level",
-    "save": "None",
-    "damage": "",
-    "description": "By means of this spell, the wizard is able to make a section of metal, stone, or wood as transparent as glass to his gaze, or even make it into transparent material as explained hereafter. Normally, the glassee spell can make up to 4 inches of metal, 6 inches of stone, and 20 inches of wood transparent. The spell will not work on lead, gold, or platinum. The wizard can opt to make the glassee work only for himself for the duration of the spell, or he can actually make a transparent area, a one-way window, in the material affected. Either case gives a viewing area 3 feet wide by 2 feet high. If a window is created, it has the strength of the original material.\n\n\nThe material component of the spell is a small piece of crystal or glass.",
-    "source": "PHB"
-  },
-
-  {
-    "level": 6,
-    "name": "Guards and Wards",
-    "school": "Evocation",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "burning incense, a small measure of sulphur",
-    "range": "0",
-    "aoe": "Special",
-    "castingTime": "3 turns",
-    "duration": "1 hr./level",
-    "save": "None",
-    "damage": "",
-    "description": "This special and powerful spell is primarily used to defend the wizard's stronghold. The ward protects a one-story stronghold, with a base dimension of 400 feet x 400 feet. The wizard can ward a multistory area by reducing the base area proportionately. The following take place in the warded area upon casting the spell:\n\n\n1. All corridors become misty; visibility is reduced to 10 feet.\n2. All doors are wizard locked.\n3. Stairs are filled with webs from top to bottom. These act as the 2nd-level web spell, except that they regrow within one turn if destroyed.\n4. Where there are choices in direction--such as a cross or side passage--a minor confusion-type spell functions so as to make it 50% probable that intruders believe they are going in the exact opposite direction.\n5. The whole area radiates magic. The normal use of the detect magic spell becomes impossible for those of less than the caster's level and difficult for others.\n6. One door per level of experience of the wizard is covered by an illusion to appear as if it were a plain wall\n7. The wizard can place one of the following additional magical effects:\nA. Dancing lights in four corridors.\nB. A magic mouth in two places.\nC. A stinking cloud in two places.\nD. A gust of wind in one corridor or room.\nE. A suggestion in one place.\n\nNote that items 6 and 7 function only when the wizard is totally familiar with the area of the spell's effect. Dispel magic can remove one effect, at random, per casting. A remove curse spell will not work.\n\nThe material components of the spell are burning incense, a small measure of sulphur and oil, a knotted string, a small amount of umber hulk blood, and a small silver rod.",
     "source": "PHB"
   },
 
@@ -4257,25 +3915,6 @@
     "damage": "",
     "description": "The legend lore spell is used to determine legendary information regarding a known person, place, or thing. If the person or thing is at hand, or if the wizard is in the place in question, the likelihood of the spell producing results is far greater and the casting time is only 1d4 turns. If only detailed information on the person, place, or thing is known, casting time is 1d10 days. If only rumors are known, casting time is 2d6 weeks.\n\n\nDuring the casting, the wizard cannot engage in activities other than the routine: eating, sleeping, etc. When completed, the divination reveals if legendary material is available. It often reveals where this material is--by place name, rhyme, or riddle. It sometimes gives certain information regarding the person, place, or thing (when the object of the legend lore is at hand), but this data is always in some cryptic form (rhyme, riddle, anagram, cipher, sign, etc.). Naturally, a legend lore spell reveals information only if the person, place, or thing is noteworthy or legendary.\n\nFor example, suppose Delsenora came across an extremely well-made sword. It radiates magic, but when she used an identify spell, she could not learn any information. Even giving it to a trusted fighter didn't work, as the sword did not reveal any special powers. Finally, she casts a legend lore spell, hoping to gain more information. Since the sword is at hand, she completes the spell in three turns. In her mind comes the message, \"Once this was the sword of he who waits till Albion's time of greatest peril, when unto his hand it shall fly again. Fair was the hand that gave me and fair was the hand that reclaimed me.\" Clearly, Delsenora realizes, this must be a very powerful item, since her spell gave only a cryptic answer. But who is he who waits? And where is Albion? For more information, Delsenora is going to have to cast more spells. But now the process will take much longer, since she has only the vaguest of clues to follow.\n\nThe legend lore spell is cast with incense and strips of ivory formed into a rectangle, but some item of value to the caster must be sacrificed in addition--a potion, magical scroll, magical item, etc.",
     "source": "PHB"
-  },
-
-  {
-    "level": 6,
-    "name": "Lorloveim's Shadowy Transformation",
-    "school": "Illusion",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": false,
-    "materials": "",
-    "range": "Touch",
-    "aoe": "Special",
-    "castingTime": "6",
-    "duration": "ld4 rounds + 1 round/level",
-    "save": "Negate",
-    "damage": "",
-    "description": "When this spell is cast, the illusionist transforms one creature or a specified amount of nonliving material into shadow, making it insubstantial. Thus, a door could be turned to shadow and entered. The maximum amount of inanimate material that may be transformed is one cubic foot per level of the caster.\n\n\nUnwilling creatures are allowed a saving throw to resist the shadowy transformation. Magical items and the magical effects of spells (such as Bigby's forceful hand or a wall of stone ) cannot be affected.\n\nA transformed creature and all its gear become insubstantial. The creature can pass through small holes, narrow openings, and the smallest cracks. The creature cannot fly without additional magic.\n\nNo form of attack is possible when in shadow form except against creatures that exist on the Ethereal plane. In this case, all attacks are normal; however, the shadowy creature may be harmed only by magical weapons of +1 or greater or by creatures able to affect those struck only by magical weapons. Spells and special attacks have normal effects.\n\nMost undead creatures will ignore a creature in shadow form, believing it to be a wraith or specter; however, liches and powerful undead may save vs. spell with a -4 penalty to recognize the spell. A successful dispel magic spell forces the creature in shadow form back to normal form.",
-    "source": "ToM"
   },
 
   {
@@ -4332,25 +3971,6 @@
     "save": "None",
     "damage": "",
     "description": "This spell is much like the 3rd-level spell monster summoning I, except that this spell summons 1d3 4th-level monsters. These appear within the spell's area of effect and attack the caster's opponents, until he commands them to cease, the spell duration expires, or the monsters are slain. These creatures do not check morale; they vanish when slain. If no opponent exists to fight, summoned monsters can, if the wizard can communicate with them, and if they are physically capable, perform other services for the summoning wizard.\n\n\nThe material components of this spell are a tiny bag and a small (not necessarily lit) candle.",
-    "source": "PHB"
-  },
-
-  {
-    "level": 6,
-    "name": "Mordenkainen's Lucubration",
-    "school": "Alteration",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": false,
-    "materials": "",
-    "range": "0",
-    "aoe": "The caster",
-    "castingTime": "1",
-    "duration": "Instantaneous",
-    "save": "None",
-    "damage": "",
-    "description": "By use of this spell, the wizard is able to instantly recall any 1st- through 5th-level spell he has used during the past 24 hours. The spell must have been memorized and actually used during that time period. Mordenkainen's lucubration allows the recovery of only one spell. If the recalled spell requires material components, these must be provided by the caster; the recovered spell is not usable until the material components are available.",
     "source": "PHB"
   },
 
@@ -4451,44 +4071,6 @@
 
   {
     "level": 6,
-    "name": "Summon Person",
-    "school": "Conjuration",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": false,
-    "materials": "",
-    "range": "10 feet",
-    "aoe": "1 person",
-    "castingTime": "5",
-    "duration": "3 rounds / level",
-    "save": "Negate",
-    "damage": "",
-    "description": "This spell summons one specific living person from wherever they are to in front of the caster. The person being summoned gets a saving throw to avoid the affects of the spell. If they pass, they are aware that they were being summoned. The summoned person is not enthralled in any way and is free to act as they please. When the spells duration expires, the subject returns to their place of origin, along with, and only with, the objects they brought with them. \n\n\nThe person must be on the same plane of existence to be targeted.\n\nIf the person is touching or wearing anything of silver or lead, the spell fails. Coins in a pocket are not touching the person directly, but a cloak lined with silver threads does count as touching.",
-    "source": "Koibu"
-  },
-
-  {
-    "level": 6,
-    "name": "Superior Magnetism",
-    "school": "Alteration",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "a small bar magnet",
-    "range": "30 yds. + 5 yds./level",
-    "aoe": "Special",
-    "castingTime": "6",
-    "duration": "1 rd./5 levels",
-    "save": "None",
-    "damage": "2d6/level",
-    "description": "When this spell is cast, the wizard designates one inanimate object of stone, earth, or metal within the spell's range to function as a powerful magnet, attracting all metal. The object affected can be no larger than a 10-feet cube, although a section of wall, floor, or ceiling about 10 square feet will work. Once magnetized, the object exerts a powerful attractive or repulsive force(caster's choice) against objects of ferrous metal. The effects vary by the proximity of the metal objects to the center of magnetism, as shown below .See book for table. \n\n\nThe movement rate represent how fast objects are drawn to or repelled from the center of magnetism. If the creature or object in question is heavier than the magnetized item, the magnetized item does the moving instead. The effective strength is the pull of the magnetism at that range; the size equivalent refers to creature sizes, not weapons sizes. A character or creature carrying loose metal items or objects such as weapons, shields, helms, buttons, and so on must win opposed strength check  (see player option: combat& tactics for information on opposed ability checks) in order to keep his possessions from being wrenched out of his grasp by the magnetism. Securing a weapon in its sheath, holding an item with both hands, and other precautions may give the character a +2 to +4 to his base ability score, at the DM's discretion.\n\nCharacters wearing metal armor must attempt an opposed strength check to ignore the effects of the magnetism. If the character fails his strength check outright, he loses his footing and flies towards or away from the object at the full rate indicated. He suffers full falling damage based on the speed with which he hits the item- 1d6 for every 10 feet of the movement rate, or half that ground if the character passes his strength check but is beaten by the magnetism roll, he is moved one foot for each point he lost by. Again, some precautions or assistance may help iron wearing characters in their strength checks. For monsters, compare the creature's size to the effective size of magnetism.\n\nAn armored character who is stuck to a surface or object loses any dexterity adjustments to AC and cannot make any physical attacks. He can try to wriggle out of his armor and free himself, employ a magical item, or use psionic powers if he has any at his disposal.\n\nThe material component for this spell is a small bar magnet, bent into a u-shape and coated with mithril.",
-    "source": "S&M"
-  },
-
-  {
-    "level": 6,
     "name": "Tenser's Transformation",
     "school": "Alteration",
     "class": "Wizard",
@@ -4503,25 +4085,6 @@
     "save": "None",
     "damage": "+2/level",
     "description": "Tenser's transformation is a sight guaranteed to astound any creature not aware of its power, for when the wizard casts the spell, he undergoes a startling transformation. The size and strength of the wizard increase to heroic proportions, so he becomes a formidable fighting machine; the spell causes the caster to become a berserk fighter! The wizard's hit points double, and all damage he sustains comes first from the magical points gained; once these points are eliminated, all subsequent damage (to his true hit points) is doubled. The AC of the wizard is 4 better than that possessed prior to casting the spell (AC 10 goes to 14, AC 11 to 15, AC 12 to 16, etc.), to a maximum Armor Class of 30\n\n\nAll attacks are as a fighter of the same level as the wizard (i.e., the wizard uses the combat values normally reserved for fighters). The wizard can use either a dagger or a staff when attacking. A dagger can be used twice per round, and each successful attack inflicts an additional 2 points of damage. A staff can be used only once per round, but with a +2 bonus to attack and damage rolls. The wizard fights in melee in preference to all other forms of attack, and continues attacking until all opponents are slain, he is killed, the magic is dispelled, or the spell duration expires.\n\nThe material component for casting this spell is a potion of heroism (or superheroism)that the wizard must consume during the course of uttering the spell.",
-    "source": "PHB"
-  },
-
-  {
-    "level": 6,
-    "name": "True Seeing",
-    "school": "Divination",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "ointment",
-    "range": "Touch",
-    "aoe": "Line of sight,max. 60 ft.",
-    "castingTime": "1 rd.",
-    "duration": "1 rd./level",
-    "save": "None",
-    "damage": "",
-    "description": "When the wizard employs this spell, he confers upon the recipient the ability to see all things as they actually are. The spell penetrates normal and magical darkness. Secret doors become plain. The exact location of displaced things is obvious. Invisible things become visible. Illusions and apparitions are seen through. Polymorphed, changed, or enchanted objects are apparent. (The real form appears translucently superimposed on the apparent form: A gold dragon polymorphed to human form would appear human with a ghostly dragon looming over the human form.) Unlike the clerical version of this spell, the recipient cannot determine alignment. The recipient can focus his vision to see into the Ethereal Plane or the bordering areas of adjacent planes. The range of vision conferred is 60 feet. True seeing does not penetrate solid objects; it in no way confers Xray vision or its equivalent. Furthermore, the spell effects cannot be enhanced with magic.\n\n\nThe spell requires an ointment for the eyes that is made from a very rare mushroom powder, saffron, and fat. It costs no less than 300gp per use and must be aged for 1d6 months.",
     "source": "PHB"
   },
 
