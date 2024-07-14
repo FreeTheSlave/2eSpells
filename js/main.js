@@ -266,6 +266,15 @@ for(var i = 0; i < sphereButtons2.length; i++){
     sphereButtons3[i].addEventListener("contextmenu", function(e){ rightClickGradient(e, this) });
 }
 
+// Shpere Button listener fix for the Sphere Filtering
+var sphereButtons = document.getElementsByClassName("sphereButton");
+for(var i = 0; i < sphereButtons.length; i++){
+    sphereButtons[i].addEventListener("click", function(){ leftClickGradient(this) });
+    sphereButtons[i].addEventListener("contextmenu", function(e){ rightClickGradient(e, this) });
+}
+
+
+
 // God buttons
 var godNames = ["Kaileth", "Mirvena", "Fel'Umbra"];
 
