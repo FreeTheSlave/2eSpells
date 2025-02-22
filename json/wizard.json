@@ -20,6 +20,26 @@
 
   {
     "level": 1,
+    "name": "fasfsaf",
+    "school": "Alteration",
+    "class": "Wizard",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materials": "",
+    "range": "5 yds./level",
+    "aoe": "10 ft.-radius",
+    "castingTime": "1",
+    "duration": "2 rds./level",
+    "save": "None",
+    "damage": "",
+    "description": "sssss",
+    "source": "PHB"
+  },
+
+
+  {
+    "level": 1,
     "name": "Alarm",
     "school": "Abjuration",
     "class": "Wizard",
