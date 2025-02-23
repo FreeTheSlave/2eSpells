@@ -20,26 +20,6 @@
 
   {
     "level": 1,
-    "name": "fasfsaf",
-    "school": "Alteration",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "",
-    "range": "5 yds./level",
-    "aoe": "10 ft.-radius",
-    "castingTime": "1",
-    "duration": "2 rds./level",
-    "save": "None",
-    "damage": "",
-    "description": "sssss",
-    "source": "PHB"
-  },
-
-
-  {
-    "level": 1,
     "name": "Alarm",
     "school": "Abjuration",
     "class": "Wizard",
@@ -4294,6 +4274,26 @@
     "damage": "",
     "description": "This spell works like the abjuration Hold Portal spell, except that it also creates a barrier of force across the portal that keeps out small creatures, liquids, and gasses. The door may still be broken down as per a Hold Portal spell. If this spell were cast upon a portcullis, a mouse could not crawl through the bars nor could a person under the effect of a Gaseous Form spell.\n\n\nCast as a ritual, this spell creates a barrier around the door that prevents the passage of small creatures, objects, liquids, or gasses as long as the door is closed. When the door is opened, the magic is temporarily suspended. This spell confers no extra protections against traditional opening and closing. To prepare the door, the caster must fill all the cracks, gaps, and holes in a doorway with some form of animal fat or blubber. When the gaps are filled (to air tight), the caster may finish the spell which causes the components to vanish. A normal door takes ~10 minutes to properly seal with blubber.\n\nThe door will forever have the faint odor of the animal fat it was sealed with. Expensive rendered fat from particular species that produce no smells can be purchased for 100gp / standard door.\n",
     "source": "Koibu"
+  },
+
+    {
+      
+    "level": 3,
+    "name": "Sense Motive",
+    "school": "Divination",
+    "class": "Wizard",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materials": "",
+    "range": "100 yd. Radius",
+    "aoe": "1 door",
+    "castingTime": "1",
+    "duration": "Special",
+    "save": "Special",
+    "damage": "",
+    "description": "Placeholder",
+    "source": "Nathan"
   },
 
   {
