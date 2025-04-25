@@ -204,7 +204,7 @@
     "duration": "1 hr./level",
     "save": "None",
     "damage": "",
-    "description": "Cantrips are minor spells I studied by wizards during their apprenticeship, regardless of school. The cantrip spell is a practice method for the apprentice, teaching him how to tap minute amounts of magical energy. Once cast, the cantrip spell enables the caster to create minor magical effects for the duration of the spell. \n\n\nSo minor are these effects that they have severe limitations. They are completely unable to cause a loss of hit points, cannot affect the concentration of spellcasters, and can only create small, obviously magical materials. Furthermore, materials created by a cantrip are extremely fragile and cannot be used as tools of any sort. Lastly, a cantrip lacks the power to duplicate any other spell effects. \nWhatever manifestation the cantrip takes, it remains in effect only as long as the wizard concentrates. Wizards typically use cantrips to impress common folk, amuse children, and brighten dreary lives. \n\nCommon tricks with cantrips include tinklings of ethereal music, brightening faded flowers, glowing balls that float over the caster's hand, puffs of wind to flicker candles, spicing up aromas and flavors of bland food, and little whirlwinds to sweep dust under rugs. Combined with the unseen servant spell, these are the tools to make housekeeping and entertaining simpler for the wizard.",
+    "description": "Cantrips are minor spells studied by wizards during their apprenticeship, regardless of school. The cantrip spell is a practice method for the apprentice, teaching him how to tap minute amounts of magical energy. Once cast, the cantrip spell enables the caster to create minor magical effects for the duration of the spell. \n\n\nSo minor are these effects that they have severe limitations. They are completely unable to cause a loss of hit points, cannot affect the concentration of spellcasters, and can only create small, obviously magical materials. Furthermore, materials created by a cantrip are extremely fragile and cannot be used as tools of any sort. Lastly, a cantrip lacks the power to duplicate any other spell effects. \nWhatever manifestation the cantrip takes, it remains in effect only as long as the wizard concentrates. Wizards typically use cantrips to impress common folk, amuse children, and brighten dreary lives. \n\nCommon tricks with cantrips include tinklings of ethereal music, brightening faded flowers, glowing balls that float over the caster's hand, puffs of wind to flicker candles, spicing up aromas and flavors of bland food, and little whirlwinds to sweep dust under rugs. Combined with the unseen servant spell, these are the tools to make housekeeping and entertaining simpler for the wizard.",
     "source": "PHB"
   },
 
@@ -361,6 +361,25 @@
     "source": "Koibu"
   },
 
+    {
+    "level": 1,
+    "name": "Corpse Link",
+    "school": "Necromancy",
+    "class": "Wizard",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materials": "",
+    "range": "10 yards/level",
+    "aoe": "Caster",
+    "castingTime": "1",
+    "duration": "1 turn/level",
+    "save": "None",
+    "damage": "",
+    "description": "With this versatile spell, a wizard establishes a sensory link between him- or herself and a corpse or freshly animated zombie of a human, demihuman, or humanoid within the spell's range. This link allows the caster to gather sensory information from the vicinity of the cadaver or undead being. For every three levels of experience past the 1st, the wizard gains the ability to collect information from an additional sense via the corpse link. At 4th level, for instance, the wizard may choose up to two senses (up to three at 7th level, four at 10th level, and all five at 13th level). Sight: The caster can see what the corpse or undead creature sees as if looking through one of the creature's eyes. <br> Sound: The wizard can now hear through one ear, exactly as if standing at the corpse's current location (if a wizard/thief, the caster can use his or her hear noise ability too). <br> Smell: With one nostril, the wizard can now smell things exactly as if standing at the corpse's current location. The spell conveniently masks the putrefying stench of the cadaver (if any) so that subtle variations of aroma (like the scent of a rose) can easily be detected. <br> Taste: The caster can taste any substance which is introduced into the corpse's mouth. The substance (which may be solid or liquid) tastes exactly as if the wizard had placed it on one side of his or her own tongue. This can be especially useful when checking for poison in food or identifying unknown potions. Thankfully, the taste of the corpse's own rotting flesh can be masked out by the spell. <br> Touch: The caster gains the ability to sense the textural and environmental conditions, with a single hand, as if standing at the corpse's location. The wizard can gauge the surface texture and temperature of any object or substance which is placed in contact with the corresponding hand of the corpse. <br> The type and number of sensory signals is chosen by the wizard at the time of casting, and cannot be changed for the duration of the spell. The caster collects all the sensory information through a single organ (eye, ear, nostril, half of the tongue, or hand) belonging to the corpse or undead recipient. This organ need not be attached to the rest of the cadaver for the spell to function properly. <br> While the spell is in effect, the wizard can still see/hear/smell/taste/touch normally through other (unlinked) organs. For example, a necromancer harvests the left eye from a fresh cadaver (with a successful Anatomy ability check) and places it on a high ledge, with a strategic view of a front door. If the spell is now cast, the wizard's left eye would be able to see through the left eye of the corpse and spy on any visitors, while his or her right eye remains normal. <br> Furthermore, if the target of the spell is a zombie, the magic enables the caster to issue simple commands to the undead creature via this link. The commands can be no longer than four words and can deal only with the creature's movement (turn left, walk forward two steps, and so on) If either the caster or the undead creature moves beyond the range of the spell, the effects are negated. Corpse link does not impart any animation to dead tissue; if cast on a regular cadaver, it remains stationary for the duration of the spell. <br> The material component is a fresh corpse or a newly-animated zombie. Unless some form of preservative magic has been employed to protect the corpse's decaying sensory organs (such as embalm or spirit bind), this spell cannot be employed on the remains of one who has been dead for longer than 1 day per level of the caster. This spell also requires the appropriate sensory organ of an animal or monster noted for its keen senses (such as the eyes of a hawk, ear of a rabbit, snout of a pig, and so on).",
+    "source": "Wizard Spell Compendium"
+  },
+  
   {
     "level": 1,
     "name": "Dancing Lights",
@@ -1917,6 +1936,25 @@
     "damage": "",
     "description": "This spell is similar to a light spell, except that it is as bright as full daylight and lasts until negated by magical darkness or by a dispel magic spell. Creatures who suffer penalties in bright light suffer them in this spell's area of effect.\n\n\nAs with the light spell, it can be cast into the air, onto an object, or at a creature. In the third case, the spell affects the space about one foot behind a creature that successfully rolls its saving throw vs. spell.  Note that this spell can also blind a creature if it is successfully cast upon the creature's attack rolls, saving throws, and Armor Class by 4. \n\nIf the spell is cast on a small object that is then placed in a light-proof covering, the spell's effects are blocked until the covering is removed.\n\nA continual light brought into an area of magical darkness (or vice versa) is temporarily negated so that the otherwise prevailing light conditions exist in the overlapping areas of effect. A direct casting of continual light against a similar or weaker magical darkness cancels both.\n\nThis spell eventually consumes the material it is cast upon, but the process takes far longer than the time in the typical campaign. Extremely hard and expensive materials can last hundreds or even thousands of years.",
     "source": "PHB"
+  },
+
+    {
+    "level": 2,
+    "name": "Corpse Whisper",
+    "school": "Necromancy",
+    "class": "Wizard",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materials": "Mouth of the Corpse, gently kissed",
+    "range": "Touch",
+    "aoe": "One Corpse",
+    "castingTime": "4",
+    "duration": "Instant",
+    "save": "None",
+    "damage": "",
+    "description": "This spell will allow the caster to hear the last few words spoken by a corpse with the mouth attached. The caster can hear 5 words per level. The caster will speak the words of the corpse from their own mouth. Can be used on animated corpses but this still only repeats words from before death.",
+    "source": "Nathan"
   },
 
   {
