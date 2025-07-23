@@ -278,7 +278,7 @@ for(var i = 0; i < sphereButtons.length; i++){
 
 
 // God buttons
-var godNames = ["Kaileth", "Mirvena", "Fel'Umbra"];
+var godNames = ["Kialeth", "Mirvena", "Fel'Umbra"];
 
 tr = document.getElementById("deity-table").insertRow();
 for(let i = 0; i < 3; i++){
