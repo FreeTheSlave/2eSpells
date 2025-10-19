@@ -336,7 +336,7 @@ var godNames2 = ["Asheutal", "Relkor"];
 
 
 tr = document.getElementById("mono-table").insertRow();
-for(let i = 0; i < 2; i++){
+for(let i = 0; i < 3; i++){
     appendButton(tr.insertCell(), "godButton2", godNames2[i]);
 }
 
