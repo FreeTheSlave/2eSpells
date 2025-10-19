@@ -332,7 +332,7 @@ function godUpdate(element){
 }
 
 // God buttons
-var godNames2 = ["Asheutal", "Relkor"];
+var godNames2 = ["Asheutal", "Relkor", "Illumis"];
 
 
 tr = document.getElementById("mono-table").insertRow();
@@ -366,6 +366,7 @@ for(var i = 0; i < godButtons2.length; i++){
 var godFilterArray2 = [
     [1, 0, 0, 1, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 2, 0, 0, 1, 2, 0, 0, 1, 0], // Asheutal
     [1, 0, 0, 1, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 2, 0, 0, 1, 2, 0, 0, 1, 0], // Relkor
+    [1, 0, 0, 1, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 2, 0, 0, 1, 2, 0, 0, 1, 0], // Illumis    
 ];
 
 function godUpdate2(element){
