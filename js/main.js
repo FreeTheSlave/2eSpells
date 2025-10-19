@@ -332,7 +332,7 @@ function godUpdate(element){
 }
 
 // God buttons
-var godNames2 = ["Asheutal", "Relkor"];
+var godNames2 = ["Asheuta333l", "Relkor"];
 
 
 tr = document.getElementById("mono-table").insertRow();
