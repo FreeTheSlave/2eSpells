@@ -72,7 +72,7 @@
     "save": "None",
     "damage": "",
     "description": "To cast this spell, the transmuter must wash themselves in soap and water, creating a plethora of bubbles which they then cover themselves with. The washing process is magical. Any normal soap will be extra sudsy, helping to facilitate the process.\n\n\nWhen the wizard is done with washing, any area that retains bubbles is covered with a spell that increases one's perceived attractiveness. It should be noted that attractiveness is not the same as charisma, and this spell has no effect on one's charisma. For purposes of this spell, attractiveness is a non-standard stat based on a 3d6 roll, and this spell increases one's attractiveness to a minimum of 15, or by 1d4, whichever is higher. A character may not exceed 18 hotness.\n\nAllure persists until the caster speaks or makes any verbal sound. The spell similarly fails if the bubbles are washed off, or if the caster falls asleep.  Should this spell be dispelled, the change is instant. All people viewing the subject see the transformation instantly. It is made even more apparent by the fact the caster is probably still covered in bubbles.\n\nSomeone making physical contact with an Allured section of the caster (i.e. an area covered by unseen magic bubbles) will feel the bubbles, breaking them, and breaking the spell. ",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -91,7 +91,7 @@
     "save": "1/2",
     "damage": "",
     "description": "In casting this spell, the enchanter applies a small amount of perfume or cosmetics to themself, while softly chanting the real name of the target of the spell while they are in sight. Upon completing the spell, the target, if they fail their save, sees the caster as being far more attractive than they really are.\n\n\nIt should be noted that attractiveness is not the same as charisma, and this spell has no effect on one's charisma. For purposes of this spell, attractiveness is a non-standard stat based on a 3d6 roll, and this spell increases one's attractiveness to a minimum of 15, or by 1d4, whichever is higher. A character may not exceed 18 hotness.\n\nShould the target pass their save, they feel uncannily disturbed by the caster, fading over the next 24 hours.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -167,7 +167,7 @@
     "save": "Half",
     "damage": "",
     "description": "The caster's hand bursts into flame, but causing them no damage or pain. A hit with the burning hand on a creature does 1d2. A grab that hits but fails to hold does 1d4. A successful grab and hold does 1d8. If a full round of burning is applied, 1d12 damage is rolled. Aside from these uses, the hand can be used to set fires and acts as normal flame. Can be ended at will, but any unused duration is lost. Spell ends if the caster loses consciousness or is stunned. Sheds light in 10 feet.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -301,7 +301,7 @@
     "save": "None",
     "damage": "",
     "description": "When this spell is cast, the wizard is able to understand the spoken words of a creature or read an otherwise incomprehensible written message (such as writing in another language). In either case, the wizard must touch the creature or the writing. \n\nNote that the ability to read does not necessarily impart understanding of the material, nor does the spell enable the caster to speak or write an unknown language. Written material can be read at the rate of one page or equivalent per round. \nMagical writing cannot be read, other than to know it is magical, but the spell is often useful when deciphering treasure maps. This spell can be foiled by certain warding magics (the 3rd-level secret page and illusionary script spells) and it does not reveal messages concealed in otherwise normal text.\nThe material components of this spell are a pinch of soot and a few grains of salt.\nThe reverse of this spell, confuse languages, cancels a comprehend languages spell or renders a writing or a creature's speech incomprehensible, for the same duration as above.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -339,7 +339,7 @@
     "save": "1/2",
     "damage": "",
     "description": "By means of this spell, any common, lightweight, naturally occurring spell component can be conjured. The item(s) desired is physically moved from within the range to the spell caster, appearing before them. The caster may conjure 2 specific components per level, and they will appear before the caster, falling to the ground unless containers are placed at the ready to be cast into. \n\n\nExamples: Wool, beeswax, wolfsbane, sand, dust, crickets, whiskers\nNot examples: Coins, gems, leather, crow's foot, gold ore\n\nWhile the spell was designed for acquiring components, one could fill their house with wool using this spell if they were dedicated to the task.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
     {
@@ -396,7 +396,7 @@
     "save": "None",
     "damage": "",
     "description": "When the detect magic spell is cast, the wizard detects magical radiations in a path 10 feet wide and up to 60 feet long, in the direction he is facing. The intensity of the magic can be determined (dim, faint, moderate, strong, overwhelming), and the wizard has a 10% chance per level to recognize if a certain type of magic (alteration, conjuration, etc.) is present. The caster can turn, scanning a 60-degree arc per round. \n\nA stone wall of one foot or more thickness, solid metal of one inch thickness, or a yard or more of solid wood blocks the spell. Magical areas, multiple types of magic, or strong local magical emanations may confuse or conceal weaker radiations. \nNote that this spell does not reveal the presence of good or evil, or reveal alignment. Other-planar creatures are not necessarily magical.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -510,7 +510,7 @@
     "save": "Negate",
     "damage": "None",
     "description": "The wizard issues a simple direction to a construct or summoned creature. This command is non-verbal, but otherwise should be in line with the command spell, i.e. it must be a single simple action and is carried for one round. The target it entitled to a saving throw to negate the effects. If the creature is under another's control, that character makes the saving throw instead.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -529,7 +529,7 @@
     "save": "Special",
     "damage": "",
     "description": "The caster holds an item in their hand, speaks the words to the spell and sprinkles silver dust over the object, summoning from within the range an item of similar type and material. The spell will summon the closest object of a given type. Items within boxes or rooms that are lined with lead or silver are immune to this spell, as are objects made of lead or silver, or enchanted objects. If no similar object is within range, the spell fizzles. \n\n\nA wizard could hold a sword in one hand while casting this spell to summon the nearest other sword to them. Items must be of the same material (steel sword summons a steel sword) and general type (arming sword could summon a scimitar, but not a dagger). Objects to be summoned must be independent, thus trying to duplicate brick near a brick building would only succeed if there was a loose brick somewhere nearby.\n\nThe only way to call a specific item is to have that item be the closest of its kind to you. If trying to summon a specific key, the caster would need to be positioned closer to that key than to any others, including keys they may have on their person. The spell will not cross planes or pull items from extra dimensional space, such as from within a bag of holding or a portable hole.\n\nObjects that are worn or held are allowed a saving throw vs. spell to avoid being pulled (using the save of their wearer).",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -605,7 +605,7 @@
     "save": "None",
     "damage": "",
     "description": "With a snap of their fingers and at least a drop of water, the wizard snuffs out all applicable fires within the AOE. \n\n\nAt first level, this spell snuffs out all candles, torches, lanterns, small camp fires or other similarly exposed flames. At third level this fire puts out large camp fires and braziers. At fifth level this spell puts out bonfires and small structure fires. At seventh level this spell puts out burning buildings. At ninth level this spell puts out all non magical flames in its area of affect, even a raging forest fire. \n\nThe reverse of this spell, Ignite, will set aflame any small fire yet to be lit. Candles, torches, lanterns, braziers, or small camp fires that are prepared can be ignited. The reverse has no spell component, and will not work to ignite non prepared substances. The thatch of a roof, a small dry bush, or even a pit of oil cannot be lit via this spell.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -757,7 +757,7 @@
     "save": "None",
     "damage": "",
     "description": "With a quick gesture, the caster produces an angled wall of force momentarily between the target and an incoming physical attack that they can see. The wall is positioned in such a way as to deflect the incoming blow, reducing the damage by 1d4 per 3 levels (1d4 at level 1, 2d4 at level 4, 3d4 at level 7, maxing out at 4d4).\n\n\nDue to the instantaneous nature of the spell, the casting must be declared before the attack roll is made. Preferably it would be announced well in advance, \"I will cast  Glancing Blow on the ogre's next attack.\"\n\nThis spell may be cast a number of times a round equal to the number of opportunity attacks the caster can make. It can be cast during other creature's actions in reaction to attacks, but will interrupt concentration and spell casting (i.e. the spellcaster intends to cast another spell but is attacked before their initiative is up. Casting Glancing Blow like this would ruin the other spell's casting.)",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -795,7 +795,7 @@
     "save": "None",
     "damage": "",
     "description": "This spell magically bars a door, gate, or valve of wood, metal, or stone. The magical closure holds the portal fast, just as if it were securely closed and locked.\n\n\nAny extra-planar creature (djinn, elemental, etc.) with 4 or more Hit Dice can shatter the spell and burst open the portal. A wizard of 4 or more experience levels higher than the spellcaster can open the held portal at will. A knock spell or a successful dispel magic spell can negate the hold portal.\n\nHeld portals can be broken or physically battered down.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -890,7 +890,7 @@
     "save": "None",
     "damage": "",
     "description": "For this spell to work, the potion to be identified must be in a transparent glass container. The caster must create a clean environment in which to cast the spell. No potions or magic items may be within 30 feet of the caster during the preparation or casting.  Once the area is clear, the powdered pearl is used to create a small circle on a table or other flat and clean surface. Within this circle the potion is placed. The caster uses the owl feather to make circles around the potion, which stir the fluids within. During this time, the feather begins to disintegrate and, if all is done right, falls onto the powdered pearl. When no more feather is left, the pearl/owl powder takes on a colored glow to which the potion reacts. Depending on the reaction of potion and powder, the caster can determine the type of the potion.\n\n\nUpon completion, the caster knows the type of potion its effects.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -947,7 +947,7 @@
     "save": "None",
     "damage": "",
     "description": "This spell calls into being a disruptive magical lens that warps space around it. The barrier reaches from the top of the subject to the bottom, curves out by 10% of the height, and stands 3' in front of the target. All melee attacks made through the shield suffer -2 to hit, while missile attacks suffer -3 to hit. These penalties affect people on both sides of the shield. Because the light is bent, the lens produces a very visible effect, distorting and enlarging the subject of the spell to viewers on the other side of it.\n\n\nTo cast this spell, the wizard places a well made glass lens on the subject of the spell. This lens then vanishes to become the lens before the subject. When the spell expires, the glass lens reforms in midair before the creature, falling to the ground and possibly breaking. If this spell is cast on the caster themselves, they will know exactly when the spell is about to expire and can catch the lens before it falls.\n\nThe somatic components are minimal, only involving placing the lens on the subject, while the verbal components must be spoken at or above conversational tones.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -985,7 +985,7 @@
     "save": "None",
     "damage": "",
     "description": "By crushing the dried remains of a harmless glowing creature (like a firefly) and blowing it from their hand, the caster conjures a small swarm of the creatures that shed soft light in the area. If larger harmless glowing creatures are to be summoned, such as a puffball, only one is summoned and it sheds light in a 5' diameter circle.\n\n\nThe creatures can be commanded using only a look [requires line of sight] and a gesture with only a moments focus, and will fly/walk/crawl/swim/hover at their typical movement rate. Most flying insects will move around walking pace.\n\nAt 4th level, the caster may reduce the duration of the spell to increase the area covered. Every time the duration is decreased by half, the volume is doubled, with each new volume created being an independently controllable swarm. For example, if the duration is cut in half, the caster has two swarms that each light a 10' cube. The caster cluster them to create one big light, or split them into two groups, one following herself, and one following another party member.\n\nThe spell can be dismissed at will.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -1004,7 +1004,7 @@
     "save": "None",
     "damage": "",
     "description": "The caster touches a living plant or the earth itself and enchants all living plants within the area of effect to bioluminesce. If there are no living plants in the area, or the plants are disconnected (across a chasm, floating, etc.), the effect will not spread. The Enchanter need not spread the light to all plants in the area, but the effect must spread from the caster. For example, the caster may light all plants in a cross around them, but may not cause plants 60 feet away to be lit without a path of lit plants there. \n\n\nIf the caster maintains light concentration, the effect will continue to spread within the AoE as the caster moves.\n\nThe spell can be dismissed while still within the area of it by touching a glowing plant. The effect will then fade out over a few minutes.\n\nOnce daylight reaches the enchanted plants, their magic fades away. ",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -1023,7 +1023,7 @@
     "save": "None",
     "damage": "",
     "description": "With a clap of their hands, a snap of their fingers, or some other non-language sound, the caster instantly and perfectly lights up a room or other enclosed area. The area must have clear boundaries as to what constitutes in or out of the room, although the size of the room does not matter, be it a peasant's hovel or a dragon's den.\n\n\nAt the time of the casting, the rooms to be lit must be chosen. This can be either a general idea (rooms centered on the one I'm standing in) or specifically chosen (living room, kitchen, bedroom, but not the closet, and cellar). If many areas are to be lit, they must all be adjacent - a wizard may not light the room they are in, skip the hallway, and light the room at the end of the hallway.\n\nThe light can be doused with the same action and sound used to create it.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -1061,7 +1061,7 @@
     "save": "None",
     "damage": "Variable",
     "description": "The caster draws some of their own life force and converts it into mana. In effect, they gain 3 mp for each HP they lose. The caster will need a way of drawing out blood, usually a knife or other bladed object is used to create a wound, although an already bleeding caster might draw on existing wounds.\n\n\nLife lost due to Mana Tap should be recorded separately as it can only be regained through natural healing.\n\nIf the MP rules are not being used, the following conversions will work.\n\nHP | Spell Slot Level\n2  | 1\n3  | 2\n4  | 3\n6  | 4\n9  | 5\n13 | 6\n20 | 7\n26 | 8\n34 | 9",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -1137,7 +1137,7 @@
     "save": "1/2",
     "damage": "",
     "description": "The caster holds a small solid object made from a single material entirely on their hand, speaks the words, and the object disintegrates into dust which flows from their hand to the surface below.\n\n\nThis spell is primarily used to create dust from gems and metals for other spell components. The object to be disintegrated must be fully contained in the casters hand without being visible from any angle. A small coin could be turned to dust, but a very large one could not.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -1346,7 +1346,7 @@
     "save": "None",
     "damage": "",
     "description": "When the caster sprinkles sand from their hand and speaks the words, all doors in the area of effect are outlined with a dim light whose color matches that of the sprinkled sand. The light is too dim to be noticed in bright light, and even in dim light can be difficult to distinguish. Furthermore, this light can be blocked by other objects. A trap door underneath some a carpet may be affected by the spell but remain unnoticed because the carpet blocks the light. ",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -1365,7 +1365,7 @@
     "save": "None",
     "damage": "",
     "description": "By pointing at the gap between two objects (or creatures) within 5 feet of each other and commanding them to separate, the caster creates a pulse of force pushing them away from each other by 5'. The caster must have a clear line of sight to the gap between creatures, and must be standing at a right angle to it, so one object is knocked to their right and the other object to their left. Objects and creatures may not be 2 or more sizes larger than the caster.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -1441,7 +1441,7 @@
     "save": "1/2",
     "damage": "",
     "description": "By means of this spell, the caster can summon any monster with hit dice equal to or less than that of the caster. The creature summoned is in no way bound to the caster and will likely be frightened, angry, confused, or all at being plucked from wherever they were. It is likely that combat capable creatures will attack the caster, unless restrained by a Magic Circle spell or some other means. The creatures summoned do not necessarily have a way of communicating with the caster.\n\n\nCreatures must be summoned into a habitable space. A fish could not be summoned unless there was an appropriate body of water for them to inhabit. A salt water fish could not be summoned into a fresh water tank.\n\nThe casting process is long and involved. The caster must maintain concentration the whole time, and any observers must stay out of the casters way and not distract.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -1479,7 +1479,7 @@
     "save": "None",
     "damage": "",
     "description": "By placing the components against the (inanimate and solid) object to be enchanted and making the correct movements with their mouth, as if speaking words to a spell but with no sound, the object enchanted becomes sound proof for the duration of the spell. This spell is bidirectional.\n\nExample: A door enchanted thusly would not let sound pass through it. A glass enchanted and thrown to the ground would shatter in silence. A person inside a barrel enchanted with this spell could hear themselves speak, but nobody outside the barrel could - assuming the lid was on.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -1498,7 +1498,7 @@
     "save": "Negate",
     "damage": "1",
     "description": "Dozens of small bursts explode into existence, leaving sparks in their wake and dealing 1 damage to everything within the area of effect. The sparks are very hot and will ignite readily flammable materials. The bright lights given off by the sparks are highly visible in anything other than pure daylight, and they make a popping sound.\n\n\nThe casting of the spell involves a loud intonation, but can be held by continuing the low sounds that come before it. Once started, there is no going back, and the area the spell is to be cast in cannot be changed, but it may be held as long as the caster maintains full concentration, line of sight, and breath.\n\nCreatures or characters behind total cover, soaked with water, or elsewise protected from the bursts, including those resistant to fire, may take no damage at all.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -1536,7 +1536,7 @@
     "save": "None",
     "damage": "",
     "description": "The caster enchants the spider (or webs) with this spell. Upon eating the enchanted components, a creature's hands and feet become sticky and the creature gains the ability to climb like a spider. This includes sheer surfaces, over hangs, spider webs, etc. To fully gain these powers, the creature must be barefoot, as the spell only affects the creature's body and not their gear.\n\n\nBecause the creature's hands are sticky, objects of 1lb or less cannot be manipulated. Casters may have a hard time with spells that require material components (being unable to cast with components that weigh a pound or less). Similarly, trying to remove a creature enchanted thusly from a wall (pull or knock off) requires a strength check.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -1688,7 +1688,7 @@
     "save": "Negate",
     "damage": "",
     "description": "Ageusia & Anosmia causes the recipient to permanently loose their senses of taste and smell. The victim is allowed a saving throw vs. spell to negate. An affected creature looses their ability to taste and smell, causing a -20 to grub skill checks. Careful consideration should be given to describing environments as the character would be unlikely to notice many things we taken for granted - the smell of acid or death, the taste of food gone wrong, or even the dampness of earth in a cave.\n\n\nThe tasteless spell can be ended with a dispel magic, or by the spellcaster.\n\nThe material component of this spell are powdered seeds of an exceedingly hot pepper.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -1726,7 +1726,7 @@
     "save": "Special",
     "damage": "Special",
     "description": "The invoker loudly calls the magic words to this spell and points at a target within range, bringing forth a spray of 20 miniature golden magic missiles. If the target of the attack fails their saving throw (dex suggested), they take an amount of damage equal to the difference between their failed save and what they needed to succeed, indicating the number of miniature magic missiles that struck the target. Furthermore, characters in magical or metal armor suffer a damage reduction of half. Characters wielding a shield may add 2 to their save.\n\n\nExample: Diana the Invoker casts Arcane Spray at a hobgoblin warlord. Diana rolls a d20+21 (15 Int, level 3) and rolls a natural 20, for a combined roll of 41. The hobgoblin warlord rolls a d20+18 (12 Dex, level 3) and rolls a natural 2, for a combined roll of 20. The difference between the two is 21, so the hobgoblin warlord takes maximum damage of 20. Were the warlord to be wearing chain mail, the damage would be reduced to 10.\n\nSpell effects that penalize missile fire, but not natural effects, grant a penalty to the caster's save equal to the missile fire penalty. ",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -1764,7 +1764,7 @@
     "save": "Negate",
     "damage": "",
     "description": "With a shout and a point, a lavender ball of force flies from the caster's hand in a straight line to a target within range. If hit, the target is knocked back 5' for every point by which they failed their save. If missed, the ball continues until it reaches the edge of its range, potentially striking other targets. The ball starts as pea sized and grows to about caster head sized.\n\n\nThis spell does not cause any damage by delivery or by throwing a character, unless that character lands in or on something intrinsically damaging (knocked off a cliff, into a pool of acid, etc.). Even 60' of forced movement into a wall 5' away will cause no damage (unless the wall was covered with spikes or something).\n\nA creature has a modifier of 2 per size category difference: e.g. Large creatures save at +2 and small creatures save at -2 vs medium casters.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -1783,7 +1783,7 @@
     "save": "None",
     "damage": "",
     "description": "By means of this spell, a caster imbues a crafted object (a coin, a carved stone, a sword, a crown, but not a random pebble) with a strong magical aura. The object will radiate magic at a specific \"frequency\", for lack of a better metaphor. It is similar in nature to flying a flag that is only visible through magic. This frequency can be locked onto with spells that attempt to locate a specific place.\n\n\nThe caster of Beacon knows the specific resonance, but other mages must discover it to use it. There are many interactions, some of which are listed below.\n\nIdentify: The Beacon resonance is treated as a normal property to be discovered. Once discovered this way, it is known forever.\n\nDetect Magic: When cast on an item with a Beacon spell, the signature resonance of the beacon can be learned for the duration of Detect Magic and picked up on at a range of 1 mile per level. For example, an adventuring party comes across some loot. The wizard of the party detects magic and sees that the ring in the pile is not only magical, but it has a beacon on it! Before they can pick it up, the rogue takes the ring and runs away. Fur the duration of Detect Magic, the wizard will be able to pick up on that beacon (provided they are looking in the right direction of course), at a range of up to 1 mile per level. Once the Detect Magic spell wears off, the beacon's signature is lost.\n\nLocate Object: If the signature of a beacon is known, Locate Object will pick up on the beacon at a range of 1 mile per level. For example, Ginger the Enchanter has created a beacon on a necklace she's given to her younger sister. Ginger then uses a locate object spell to find the beacon and thus her sister, or uses a messenger spell with the beacon as a destination. \n\nLocate Beacon: Used to permanently learn the signature of a beacon. Unlike Identify, there is no chance of failure. Further uses of Locate Beacon can be found in the description of that spell.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -1897,7 +1897,7 @@
     "save": "1/2",
     "damage": "",
     "description": "By speaking the words aloud and sprinkling the components on the ground in a circle, the caster creates a simple object of the same material. The sprinkled dust forms into the desired object directly. This object must not weight more than 1 pound per level, be fragile, have moving parts, patterns, or complicated construction. Only one object can be summoned and it is of the same material as the dust.\n\n\nThe duration of the spell may be extended if the caster maintains full concentration on the spell before its duration is over. The caster may not break line of sight with the object and cannot occupy their mind with other things, like conversation, spell casting, or keeping concentration of any kind on another spell.\n\nExamples: Ladder (2'/level), hammer, bowl, dagger, plank, crow bar.\nNot examples: Bow, lantern, magnifying glass, rope, chain, hinged box.\n\nThe quality, but not the complication, of the object summoned changes as the caster gains levels.\nAt 1st level: Simple and unremarkable work.\nAt 4th level: Good.\nAt 6th level: Fine with simple decorations.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -2372,7 +2372,7 @@
     "save": "None",
     "damage": "",
     "description": "Casting this spell draws on the knowledge of all creatures within the range, and poses a subconscious question to these creatures: Where is the landmark in question. The answer is then returned to the caster as long as the location is on the current plane of existence, and there is a general consensus from the creatures in the area. Landmarks must be stationary and singular. Should a stationary landmark be moved, perhaps the \"Great Tree of Vitality\" has been cut down and moved, the original location of the landmark as it is known to people in the range of the spell is used. Mobile landmarks, like a King's Crown, automatically fail.\n\n\nIn preparation for this spell, an 10' diameter area must be prepared. If an area has already been prepared (such as a dedicated divination room within a wizard's lair), the spell can be cast straight away taking only 4 hours. If such an area must be constructed, the area must be made uniform and neat. A wheel must be carefully inscribed on the outside with radial spikes to the center. This can be etched, painted, or even made with sticks in a pinch, but the preparation and placement must be exact. In optimal conditions, this takes 2 hours (e.g. paint on an empty warehouse floor). In ordinary conditions, this takes 4 hours (e.g. etching on flat stone). In poor conditions, this takes 6 hours (e.g. sticks and leaves in the forest floor). If the caster is in a hurry, they may use half the prep time with a successful intelligence check. If the check is failed, the caster has not prepared the area correctly and the spell flubs. Generally it is best to roll the intelligence as the spell is being cast.\n\nThe actual casting of the spell takes 4 hours, during which time the caster must sit still in the center of the wheel with their eyes closed and their mind in an open state. They cannot carry conversation or interact with objects without flubbing the spell. The magic sweeps the area in an apparently haphazard manner before returning to the caster a direction (if the spell is successful). \n\nExample: Bobo the diviner casts Locate Landmark, with the landmark in question being the secret burial ground of elves. Bobo is in a human dominated region, where nobody knows the answer to this question, so it returns no answer. Bobo then decides to head to a major port where there are many elves, and casts the spell again. The compass in his hand turns to point North West. Bobo doesn't know how far North West it is, so he travels North West for six days before casting the spell again. This time he is in a small elvan port town that allows human visitors. He casts the spell again, and gets a direction of south west. Bobo knows he's overshot the distance, and can change directions, heading south this time.\n\nA very careful wizard with a compass and map might be able to triangulate the location of a landmark, although this can be tricky since the further the target is from the landmark, the more the compass needle wobbles. ",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -2410,7 +2410,7 @@
     "save": "1/2",
     "damage": "",
     "description": "The caster creates a circle on a stable surface with chalk and powered silver or lead. The size of the circle dictates how much chalk, silver, and lead is needed, as well as the casting time. Each foot of diameter consumes 30cp worth of lead or 60cp worth of silver and takes 2 minutes to create. Once the circle is created, the spell takes 1 minute to cast.\n\n\nOnce the circle is drawn and the spell is cast, nothing (physical or magical) may cross the boundary within the circle. If the chalk and powder circle is broken (a hair or straw laying across it, or being scuffed, for example), the spell is instantly broken. Items or creatures may be summoned within the circle, preventing them from running free, but also preventing the caster, or others, from interacting with the creature. While touch and spells may not cross the border, non-magical sounds may.\n\nA creature inside the circle may attempt to break out. To do so, the creature rolls a d10 and adds their willpower and their number of hit dice. The spellcaster rolls the same thing. If the creature's roll equals or beats the caster's, the creature breaks free of the circle. If the circle is made with silver, instead of lead, the caster has advantage on the d10 roll. When this spell is broken in this way, there is a short but blinding flash of light outside the circle. An attempt to break free can be made once a turn.\n\nThis circle may be reused over and over, as long as it is not disturbed. A permanent magic circle can be made at 100x the cost. The permanent version of this circle uses inlaid stones and molten metals.\n\nThe spell, but not the physical circle, may be dispelled by the original caster with a touch.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -2429,7 +2429,7 @@
     "save": "1/2",
     "damage": "",
     "description": "The caster touches a locked door with one hand, holds a key openly in their other hand, and softly speaks the words to the spell. The component disinterested into a fine sand and slips through the casters fingers. A magical key is conjured from the air that is an exact replica of the key used for the door being touched. The key vanishes when the caster loses light concentration, but until then acts in all respects as a normal key.\n\n\nThe key created is of the same volume as the key used in the component. While locks on homes and chests tend to be of similar size, desk locks tend to have smaller keys, and gates tend to have larger keys. Too much material in the spell component is usually possible to work around, perhaps producing a key with a large handle, but having too small of a spell component can lead to unusable results for large keyed locks.\n\nIt is possible to intentionally flub the spell and produce a key that does not work on the door. This flubbed key will be of a type that would work in the door, but with the wrong configuration.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -2448,7 +2448,7 @@
     "save": "None",
     "damage": "",
     "description": "This spell enchants a small paper lantern to glow with a soft light of the same color as the sand used in the casting. The lantern produces ambient light equal to 5 candles without producing any heat. Anyone who touches or holds the lantern may light, dim, brighten (to it's maximum), or extinguish the light. Sheds 30' of soft light.\n\n\nIf the caster is careful in their preparation, and uses multiple colors of light, the lantern may be changed to any of the colors, but not blended hues .",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -2486,7 +2486,7 @@
     "save": "1/2",
     "damage": "",
     "description": "By means of this spell, the caster is able to recall any one object that has been prepared in advance. The object must be physically marked/inscribed with words or runes. The first rune inscribed is a personal identifier of the caster, while the other words/runes are the sounds the caster uses to recall that object. Each object must have a unique set of sounds, and marking a new object with sounds of a previous object voids the enchantment on the previous object. If another caster marks the same object with the same spell, the first caster's enchantment is void.\n\n\nThe preparation for an object takes as much time as it would take to engrave (by hand) the object. Only after the runes/words have been inscribed can the caster finish the preparation by casting this spell into the object, which includes a drop of the caster's blood.\n\nOnce an object has been prepared, it can be recalled from anywhere on the plane by casting this spell and speaking the sounds/words to that particular object.\n\nRestrictions: 1lb/level of the caster. 1 foot/level. Only the marked object can be summoned, not any attached items (a box will be recalled without its contents). Modifications to the object void the enchantment (writing on marked paper, engraving in a box). Items bound in silver or lead, or those enclosed in silver or lead lined rooms are temporarily unreachable.\n\nThe caster can dispel the enchantment by touching the object. If the object is identified, the name of the caster who enchantment can be determined. ",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -2505,7 +2505,7 @@
     "save": "Special",
     "damage": "",
     "description": "This spell causes an arm made of compacted soil to rise from the ground. The spell must be cast on open turf, such as a grassy field or a dirt floor.\n\n\nThe earthen arm and hand (which are about the same size as a normal human limb) arise from the ground beneath one creature targeted by the caster. The hand attempts to grasp the creature's leg. The victim must attempt a saving throw; if successful, the hand sinks into the ground. Each round thereafter (until the spell ends or the target moves out of spell range), the hand has a 5% chance per level of the caster of reappearing beneath the targeted creature, at which time another saving throw is required.\n\nIf a saving throw is missed, the earthen limb firmly grasps and holds the creature in place. An individual held by the hand suffers a movement rate of 0, Armor Class penalty of -2, and attack penalty of -2. All Dexterity combat bonuses are negated. The hand causes no physical damage to the victim.\n\nThe arm may be attacked by any creature, including the arm's victim.\n\nThe material component is a miniature hand sculpted from clay, which crumbles to dust when the spell is cast.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -2543,7 +2543,7 @@
     "save": "1/2",
     "damage": "",
     "description": "The caster eats a feather and then whispers the words to the spell, summoning a small bird into existence. The bird will flutter about in front of the caster for 1 minute while the caster delivers a short message to it, as well as a verbal and mental picture of the person to whom the message ought to be delivered. The bird then flies away to deliver the message.\n\n\nThe bird will follow the rough instructions of the caster trying to find where to deliver its message. If the caster told the bird to deliver the message to the caster's wife who was at home, the bird will fly to the casters home (if within range of the spell) and visually look for the caster's wife. If the caster's wife cannot be found (inside where the bird can't go, not at home, disguised, etc.), the bird circle the area trying to find the target. The bird's ability to locate someone is only as good as a normal bird's - that is it can recognize a person by their face, or what they are wearing, but may get confused if there are many similar subjects.\n\nThe bird delivers the message as a series of squawks, which will get the words through, but not intonation or other verbal cues. Alternatively, a message may be attached to the bird physically. This message must be prepared ahead of time and the caster must have a way of attaching it to the bird.\n\nA bird that fails to find its target by the end of the spell, vanishes without having delivered it. \n\nAs a magical creature, the bird can also be sent to magical beacons as per the Beacon spell. In this case, the bird will deliver to the beacon, even if it is not in the possession of the intended target of the spell.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -2562,7 +2562,7 @@
     "save": "None",
     "damage": "2d4",
     "description": "After anointing a nonliving object with burning sage, speaking the words, and going through the movements, the spell caster creates a rectangular scrap of paper with magic runes on it that affixes itself to a nonliving object of the caster's choice. If ever a living creature nears the ward, the runes emit a soft orange glow. The scrap of paper cannot be removed without being destroyed, and if the scrap is destroyed it explodes, dealing 2d4 points of damage to everything in a 10' radius, potentially destroying the item it was warding. Saving throws for half. Usually the seal is placed over a door and frame so that the door cannot be opened without ripping the paper. Those with walls or other structures between them may make a saving throw for no damage, suffering half damage on a fail.\n\n\nExample: A minor sealing ward is placed over on a door frame, with creatures on either side. One creature opens the door, setting off the ward. Those on the ward side of the door save for half damage, taking full on a fail, while those on the opposite side save for no damage, taking half on a fail.\n\nThe ward itself is made of a tough and durable material, requiring a small effort to tear. It is unlikely for the ward to be destroyed through accident or exposure to the elements. \n\nThe ward may be dispelled by the caster at will, or removed by any other spell caster 3 levels higher than the original caster.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -2638,7 +2638,7 @@
     "save": "1/2",
     "damage": "",
     "description": "Throwing the components into the air an speaking the words aloud summons into existence a mount. The creature summoned must be of hit dice equal to or less than that of the caster. The mount is broken in and well behaved, but knows no special commands or tricks and will serve only the person it was specifically summoned for. Any other person or creature attempting to ride it will meet with a very uncomfortable and spooked mount who will try to throw them. The mount will carry its rider into combat, but will not fight. A summoned horse will not overrun someone, for example.\n\n\nThe ability to summon a mount does not confer and ability to ride it. A cater who has never ridden a giant spider might have a very hard, or impossible, time trying to ride one they have summoned via this spell. This spell does not confer any supernatural communication with the mount.\n\nThe mount's link to the caster is weak, and the mount will vanish when it takes damage equal to the caster's level, or if the mount is separated by its rider by more than 100' per caster level.\n\n",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -2714,7 +2714,7 @@
     "save": "None",
     "damage": "",
     "description": "The caster outlines the target with any sort of oil. The oil must make contact with the skin or clothes, and must form three full circles around the character, one in each spatial dimension. When the oil has been applied, the spell takes effect.\n\n\nA creature or object under the effects of a Perception Filter is visible but unnoticed. As long as the subject does not speak to anyone or draw attention to themselves in any way, they are unnoticed. A guard on a door would notice an individual under the effects of this spell if they approached the door alone, but would not noticed one extra person in a large group that is not supposed to be there. \n\nA companion to someone under the effect of this spell might lose track of them in a large crowd or forget that they're around somewhere. Moving through crowds is simple, as most people see but do not notice others in a crowd.\n\nA merchant might not notice someone under the effects of this spell take something small and off to the side from their table of wares, but would notice if that same someone came around to the merchants side of the stall, or stood directly in front of the merchant, or tried to pilfer their masterpiece on display.\n\nThe spell works best when the target of the spell makes an effort to be out of the way and unimportant. If there is a question as to whether or not someone is noticed, the noticer should make a saving throw.\n\nThings that will break the spell include, but are not limited to: any attack, spell casting, speaking to a person, making noises that draw attention, wearing out of place clothes, or using a mirror to reflect light into someone's eye.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -2733,7 +2733,7 @@
     "save": "None",
     "damage": "",
     "description": "Wishing he could keep his drinks cold on hot summer days, the notoriously reclusive wizard Poorvan created this spell to chill his drink. A 1\"x1\"x1\"cube of rock is enchanted to always be chilled. These stones only conduct heat/cold when immured in fluids. One stone will keep one cup at a pleasant temperature. These stones will never be cold enough to cause harm to any living creature.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -2847,7 +2847,7 @@
     "save": "None",
     "damage": "",
     "description": "When the great wizard Ferris built a hidden fortress for himself and his apprentices, he lined many segments of the base with Waltraud's Wonderous Walls to allow observation of the outside, difficult ingress, easy egress, and to provide light. After some time, Ferris found it frustrating that his friends were forbidden from his fortress, and thus he created the Reveal Wonderous Walls spell. Handed down to his apprentices, this spell allows a section of Wonderous Walls to be revealed and disabled for 1 round, letting the caster enter at will.\n\n\nTechnically, this spell creates a tiny portal, big enough for only the tip of a finger to pass through, that exits exactly 1 inch behind the spot touched, allowing the caster to activate the wall from behind. Thus when casting this spell, only one very small point may be touched - a caster could not press both hands 5 feet apart with this spell in hopes that either hand may find a wonderous wall segment, but they could touch a single segment with a finger, toe, or tip of nose to deactivate the wall.\n\nThe portal created by this spell is only active for a brief moment, activated by touch, and does not typically have any use outside deactivating Wonderous Walls, although under the right set of circumstances may allow someone to press a button on the reverse side of a wall. (The circumstances for this are so narrow that such a button would have to be carefully crafted and placed with the intent for it to be activated by use of this spell).\n\n",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -2961,7 +2961,7 @@
     "save": "Negate",
     "damage": "",
     "description": "The caster points to the sky and speaking softly lowers their finger to the shadow of the creature they wish target. A blade springs forth from the air and plunges into the ground under the target's shadow. As long as the blade is in the ground, the target cannot move from the waist down. Once the spell is broken, the blade vanishes.\n\n\nThe blade will not penetrate stone until 8th level, but it is firmly lodged in whatever ground it does penetrate. Sand and snow are loose enough that another creature should be able to easily remove the blade, but hard packed earth or clay might require a strength check to be removed. Ground in-between these may require a strength check with a bonus subject to DM discretion.\n\nTargets that do not see the spell coming, fleeing targets for example, make their saves at -2. For each size difference to the caster (larger or smaller), the target of the spell receives a cumulative +2 bonus to their save. If the shadow leaves the blade (lighting changes for example) the spell is broken.\n\nWhether the subject of the spell is able to reach, grasp, and withdraw the blade is dependent upon the circumstances. The blade is ~3' long and is all but fully sunk into the ground, leaving the handle near to the ground. A tall creature struck from behind may have a hard time reaching something so close to the ground, while a short creature whose shadow stretches before them may easily grasp it. ",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -3094,7 +3094,7 @@
     "save": "None",
     "damage": "",
     "description": "A necromancer must touch a willing subject in the casting of this spell, turning their muscles into undead muscles, raising their strength temporarily.\n\n\nThe subject of the spell makes an exchange of HP for Strength. For every HP they lose, they temporarily gain 1 point of strength, to a maximum of 18/100 (each category of exceptional strength counts as 1 point). Non-warriors can gain exceptional strength this way. When the duration expires, the subject reverts to their normal strength, and then loses an equal amount to what they gained. The lost strength returns at a rate of 1 point per day. It is worth keeping in mind, that any character who reaches 0 strength dies.\n\nExample: Lili the Cleric is fighting a giant with her necromancer friend Leoric. Leoric casts Unholy Strength on Lili, who chooses to give up 11 hp, raising her strength from 12 to 18/100. When the spell expires after defeating the giant, Lili looses 11 points of strength, bringing her to 1 strength. The next morning, she has regained 1 lost point of strength and is at 2 str. Three days later, she's at 5 strength. A week later, she's back at her full 12 strength. \n\nNon-willing subjects, including unconscious people, cannot be targeted with the spell, as part of the magic involves an internal agreement to relinquish HP. Similarly, the muscles of the subject are decayed and undead, giving the subject of the spell a stench of death and decay about them. ",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -3132,7 +3132,7 @@
     "save": "None",
     "damage": "",
     "description": "This spell creates two magically linked wards that allows a wizard on one end to observe what is happening on the other end. The first version of this spell enchants the wards permanently, while the second version permits their use.\n\n\nTwo masks must be created, one that looks outward, and one that looks inward. The outward facing mask has the shape of a person, animal, or monster as seen by another person - a typical face. The masks that look in are shaped as if to be donned, but must also match the outward mask. When the wizard \"wears\" the inward mask and casts the spell they see as if their face was the outward mask. They cannot move the outward mask, but may move the eyes, which might be noticed by someone observing the outward mask.\n\nThe second version of the spell has a duration of 1 round / level, during which time the wizard may switch between various masks if they have more than one.\n\nShould a mask be damaged, it may cease to function. This is checked the first time the mask is used after being damaged. A mask 10% damaged has a 10% chance of failing. If this check is passed, it will continue to function until further damaged. Damage to the gems that function as eyes destroyed the magic.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -3208,7 +3208,7 @@
     "save": "Negate",
     "damage": "",
     "description": "[This spell uses the Thief Rebuild version of locks.]\n\nThe caster places their hand on the object holding the lock and sprinkles the silver over their hand while speaking the words to the spell quietly. When the dust settles on the object, it vanishes. At the end of the spell, the difficulty of the lock is then increased by 5 + 1/3 the caster level. Furthermore, spells that may unlock doors (e.g. alteration version of Hold Portal) must pass a contested saving throw or fizzle. \n\nOnce the object has been opened, the lock is returned to it's normal difficulty, but the area where silver did not touch the object, due to the caster's hand being there, takes on a gentle red glow for a number of weeks equal to the caster's level. The glow only becomes visible ten minutes after the object was closed again. This red glow can be dismissed with a gesture by the caster. ",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -3227,7 +3227,7 @@
     "save": "Special",
     "damage": "4d8/level",
     "description": "By casting this spell, the wizard learns what ingredients and formulas were used to create a chemical mixture or magical item.\n\n\nThe information instantly appears in the caster's mind but may be lost if the wizard cannot comprehend it. The caster must roll an Intelligence check; if successful, the wizard understands the formula and retains it in his memory. If the roll is missed, the caster cannot comprehend what he has learned and the information is immediately forgotten. If the spell is cast a second time on the same substance, the spell automatically fails unless the wizard has advanced to the next experience level.\n\nThe caster's level determines the type of information gleaned:\n\n5th Level: The type and quantity of ingredients and the preparation process required to produce a non-magical mixture are learned. For example, the wizard could learn how to produce Greek fire or gunpowder, or could learn the recipe for something simple, like chocolate cake.\n\n9th Level: The wizard may learn the proper ingredients and formula for making a magical liquid (potion, scroll ink, etc.).\n\n14th Level: The caster may learn the formula for creating any type of magical object, excluding unique items and objects of extreme power (artifacts and relics).\n\nIn all cases, simply knowing the proper formula does not mean the wizard can successfully create the item or material. The construction of alchemical mixtures and magical items is a time consuming and expensive undertaking.\n\nThis spell has detrimental effects on the magical item analyzed. Single-use items (potions, oils, etc.) are automatically destroyed; the spell consumes the item in the process of analyzing it. Reusable magical items must make a saving throw vs. disintegration. If the saving throw is failed, Alamir's fundamental breakdown releases the magic of the item in an explosive blast, rendering it permanently nonmagical. The caster suffers 4d8 points of damage from the explosion.\n\nThe material component is a wand cut from a 100-year-old oak tree. The wand is used to touch the item in question, and vanishes in a puff of smoke when the spell is complete.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -3246,7 +3246,7 @@
     "save": "None",
     "damage": "",
     "description": "This spell functions as a Wizard Lock spell in all respects save that those designated by the wizard may be granted entrance or egress (independently of each other). Therefore, if Aldric the Conjurer casts this spell on his tower's entrance, he could name only himself as one to enter, but allow anyone to exit. Alternatively, when Malakai the Sorcerer casts this spell on house, he could name himself, Van-Healsing the Cleric of Chis, and Kain the Ranger as those that may enter, and the same people plus Jeeves the driver as those who may exit.\n\n\nSpecific people to be granted access must be known and named. The caster must have an accurate mental image of the person, they may not be known by rough description or a painting. Having met or scryed (with something like Clairvoyance) upon the person is accurate enough. Further discriminations similar to those found in the Magic Mouth spell can be made.\n\n\"Myself and Goblin women weight over 200lb, carrying a curved sword, and singing their national anthem in ogre may enter, anybody may exit\" would be a successful casting. \"Myself and those I slap in the face may enter, those that live in Shirebrook may exit\" would fail (both the slapping and the living in Shirebrook violate the conditions of the spell).\n\nWith this spell it is possible for a wizard to create conditions which they cannot fulfill, preventing themselves from opening the door.\n\nThe components of the spell are a lock and key made out of pure silver, costing no less than 200gp, which are consumed in the casting of the spell.\n\nThis spell can be augmented for further effects with additional components.\n\nGargoyle: If the door is augmented on one side with a face, it may be enchanted to speak and hear, allowing for other conditions. The enchantment retains no knowledge, cannot pass or take messages, and follows simple programing. It may prompt visitors, ask for passwords, demand riddles, or ask that signs or gestures be pretended. Such gargoyles must be made from at least 1 pound of solid metal and no less than 20gp worth of craftsmanship. More expensive metals (silver, gold, etc.) may have much higher craftsmanship costs.\n\n\n",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -3284,7 +3284,7 @@
     "save": "Special",
     "damage": "Special",
     "description": "The invoker loudly calls the magic words to this spell, bringing forth a blast of golden magic energy. The caster sets the save DC by rolling d20+INT+level*2. Each creature within 30 feet of the caster makes a saving throw (dex suggested), if they fail they take an amount of damage equal to the difference between their failed save and what they needed to succeed. Furthermore, characters in magical or metal armor suffer a damage reduction of half. Characters wielding a shield, and facing the caster may add 5 to their save.\n\n\nExample: Diana the Invoker casts Arcane Blast at a hobgoblin warlord. Diana rolls a d20+21 (15 Int, level 3) and rolls a natural 20, for a combined roll of 41. The hobgoblin warlord rolls a d20+18 (12 Dex, level 3) and rolls a natural 2, for a combined roll of 20. The difference between the two is 21, so the hobgoblin warlord takes maximum damage of 20. Were the warlord to be wearing chain mail, the damage would be reduced to 10.\n\nSpell effects that penalize missile fire, but not natural effects, grant a penalty to the caster's save equal to the missile fire penalty.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -3379,7 +3379,7 @@
     "save": "None",
     "damage": "",
     "description": "By clearing a small circle around themselves and tossing the material components into the sky, the caster summons into being a singular eyeball, wrapped in a lid of its own. The caster can move the eye around at will, as long as they remain in the circle they cleared, and see through the eye as if it was their own. Unless the caster closes their other eyes, the effect is quite dizzying and confusing. The eye has poor focus and has a hard time seeing things beyond 120 feet. When the caster moves the eye, it levitates, hovers, and flies at twice the caster's movement range. The eye is physical and can be interacted with. It has AC 15 and 1hp.\n\n\nStrong winds, rain, snow, or sleet can make manuvering of the eye difficult or impossible.\n\nWhen the spell ends, the eye returns to being a crystal ball, landing where the eye last was. Should the eye have been destroyed, the crystal ball is destroyed.\n\nIf a small glass or crystal ball cannot be found, the eye of a creature may be used instead, but is consumed in the process.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -3398,7 +3398,7 @@
     "save": "None",
     "damage": "",
     "description": "A space needs to be cleared, a clean mat put down, and the crystal ball placed on top of it, and a previously seen and well known location held in the mind while the spell is cast. As long as the caster closes their eyes, keeps their hands on the ball, and maintains concentration on the spell, their spirit is projected through the ball to the location in mind. The character sees as if they were standing on the ground in the place. They can look in any direction, but cannot move.\n\n\nIf the area is magically dark, only darkness is seen; if naturally pitch dark, only a 10-foot radius from the center of the spell's area of effect can be seen. Otherwise, the seeing extends to the normal vision range according to the prevailing light.\n\nAnyone in the room with the caster can see from the caster's perspective by looking into the crystal ball. If the ball is too small, the caster's hands may cover it and prevent others from seeing.\n\nShould someone use a true-seeing, detect magic, or other sort of divinations spells in the area, the spirit of the caster is revealed in their true likeness in the place they're standing. If the spirit form is struck with a magic weapon (Auto hit out of combat, AC10 in combat) or a dispel magic spell, the clairvoyance spell immediately ends. AOE spells and violent breath weapons can also end the affect (e.g. fire breath would end the effect, but poison cloud would not).",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -3455,7 +3455,7 @@
     "save": "None",
     "damage": "",
     "description": "When the caster speaks the rhyming words, and performs the appropriate gesticulations, they create the residual effects of any spell the caster knows of equal or lesser level. This is extended to spells they cannot cast but are closely familiar with. Often times this may be invisible residue, or things only detectable by a detect magic spell.\n\n\nA true seeing spell, a gem of true seeing, or other similar magic effect will reveal the residue to be illusory.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -3512,7 +3512,7 @@
     "save": "None",
     "damage": "",
     "description": "This spell allows a wizard to control natural fires by manipulating randomness and adjusting probabilities to cause them to spread and take shape in any direction he desires. Once cast, the wizard points at any fire within range. He can then cause that fire to move in any direction desired within spell range, as long as the flames contact the air).\n\n\nThe caster must maintain concentration or the spell fails. The flames can be spread at the rate of 50 square feet per turn. Thus, if a caster affects a campfire, he could create a flaming line 1 foot wide and 50 feet long or fill a 5*10 square in a single round.\n\nThe flames are not limited by a lack of burnable material and can be directed to spread over water, snow, ice, and other nonflammable surfaces. The surface is not harmed ,but objects and creatures caught in the flames suffer damage as if they had stepped into the original fire source. Thus, a character caught in flames created from a candle will suffer only minor damage, while a character caught in a blaze that originated from a huge bonfire will be severely burned.\n\nThe material component are a small paint brush and a pot of pitch.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -3569,7 +3569,7 @@
     "save": "None",
     "damage": "",
     "description": "With this spell, the wizard empowers himself and others of his choosing with the ability to speak a secret language incomprehensible to others. Creatures designated to speak the language must be touching each other when the spell is cast.\n\n\nOnce cast, the characters can choose to speak normally or in their secret tongue. They can speak and understand this mysterious language fluently.\n\nFool's speech is not recognizable as any known languages, nor does it remotely sound like any language. A comprehend language or tongues will not translate it. It can be understood by a character wearing a helm of comprehending languages and reading magic, although the normal percentage chances apply.\n\nThe material component is a small whistle made of bone.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
 
@@ -3646,7 +3646,7 @@
     "save": "Negate",
     "damage": "None",
     "description": "By positioning a creature against a mirror, and marking their forehead with their own blood, the necromancer entombs the creature inside a mirror. The mirror must be of a size to hold the creature. Spells that change the size of the creature prevent the creature from being entombed until the spell is worn off. Similarly, mirrors that are magically changed in size are unsuitable for this task.\n\n\nOnce a creature is held in a mirror, it is in a state of two dimensional semi-stasis. The creature does not heal, does not age, has no need of food, drink, or bodily functions, yet they may still move and speak (if they were able to outside of the mirror). Furthermore, those trapped in the mirror find that their three dimensional belongings no longer function in two dimensional space: books cannot be read, potions cannot be consumed, itches cannot be scratched, etc. Creatures with magical abilities (spells, gazes, etc.) will find that their spells are restricted to the mirror dimension in which they are placed. A basilisk would not petrify someone looking at it, nor could a mage within a mirror cast Magic Missile at someone on the other side or at the mirror itself.\n\nCreatures inside the mirror are aware of what is happening on the outside of the mirror, being able to see, hear, and smell. Similarly, creatures on the outside of the mirror and see and hear those trapped within. Those inside the mirror may walk around within the confines of the mirror, and may come into the foreground (between the onlooker and their reflection) or stay in the background (behind the reflection of creatures). \n\nIf the mirror is broken or damaged (scratching the glass counts as damaged), the magic is broken, the mirror shatters, and the creature is freed, in the exact state it was originally imprisoned.\n\nA shatter spell cast from within the mirror dimension will break the mirror. Spells that move between dimensions can be used as long as they do not require 3 dimensional space (A spell that opens a portal one walks through would not work, but a spell that shifts the caster from one dimension to another will). Teleportation has no effect.\n\nA caster may not imprison themselves in a mirror.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -3665,7 +3665,7 @@
     "save": "Negate",
     "damage": "",
     "description": "The caster causes a number of creatures within a 20' cube to believe that they are frozen in place, should they fail their saving throw. The freezing effect happens over a few seconds, allowing creatures in mid stride to come to a stop. These creatures are not actually frozen or held, but the effect of the illusion is strong enough to make them think they are.\n\n\nEach creature receives a saving throw on their turn to break the illusion, as well as each time they take damage. Should the caster lose light concentration, the spell is broken.\n\nThis spell is cast as if it were a command from the spell caster. They must may visual contact with the whole of the group to be affected, and command them to \"hold\" or \"freeze\" or some similar utterance. The creatures to be affected need not understand the caster.\n\nCreatures of 4 intelligence or less are unaffected by this spell.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -3684,7 +3684,7 @@
     "save": "Negate",
     "damage": "",
     "description": "By pointing at an individual creature no more than one size larger than the caster and commanding it to halt (or some similar command), the creature's muscles lock up, causing the creature to be held in place and immobile, presuming it failed it's saving throw. The creature is held in place for 1 round for each point it missed it's saving throw.\n\n\nExample: Diana the Transmuter attempts to hold a kobold with this spell. The kobold needs a 17 on her save, but only rolls a 5, meaning the kobold will be held for 12 rounds.\n\nShould the caster lose light concentration, the spell is broken. The caster may break line of sight, allowing them to hold a creature and walk away (presuming light concentration is otherwise held).",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -3803,7 +3803,7 @@
 
   {
     "level": 3,
-    "name": "Koibu's Shadowy Grasp",
+    "name": "Nathan's Shadowy Grasp",
     "school": "Illusion",
     "class": "Wizard",
     "verbal": true,
@@ -3816,8 +3816,8 @@
     "duration": "1 round / level",
     "save": "Negate",
     "damage": "1d4 / round",
-    "description": "After spending time amongst the elves in the border of they feywild, Koibu developed this variant of Hold Person. Upon utterance of the spell, the caster tosses one end of a darkened silk scarf toward the target while holding the other end, extending a shadow along the ground in a path to the target who must make a saving throw vs. spell at -3 or be held, levitated 1 foot off the ground, and choked - cutting off all air to the target and suffering 1d4 points of damage per round. The target must follow the rules for holding their breath. A natural 1, 2, or 3 on a failed save indicates the target did not get a good gulp of air before the spell took effect. Once the spell has been cast, the caster may speak and act normally, even breaking line of sight to the target. The target may croak out a few words over the course of the spell (limited to the amount of air they already have in their lungs), but can make no other movements and is subject to all the other effects of Hold Person. The spell may be dismissed with a gesture.\n\n\nThe range of this spell, 120 feet, is based on the ground path between the caster and the target - e.g. someone standing 50 feet away on the other side of a 100 foot canyon would be out of range.",
-    "source": "Koibu"
+    "description": "After spending time amongst the elves in the border of they feywild, Nathan developed this variant of Hold Person. Upon utterance of the spell, the caster tosses one end of a darkened silk scarf toward the target while holding the other end, extending a shadow along the ground in a path to the target who must make a saving throw vs. spell at -3 or be held, levitated 1 foot off the ground, and choked - cutting off all air to the target and suffering 1d4 points of damage per round. The target must follow the rules for holding their breath. A natural 1, 2, or 3 on a failed save indicates the target did not get a good gulp of air before the spell took effect. Once the spell has been cast, the caster may speak and act normally, even breaking line of sight to the target. The target may croak out a few words over the course of the spell (limited to the amount of air they already have in their lungs), but can make no other movements and is subject to all the other effects of Hold Person. The spell may be dismissed with a gesture.\n\n\nThe range of this spell, 120 feet, is based on the ground path between the caster and the target - e.g. someone standing 50 feet away on the other side of a 100 foot canyon would be out of range.",
+    "source": "Nathan"
   },
 
   {
@@ -3912,7 +3912,7 @@
     "save": "None",
     "damage": "",
     "description": "This spell is coupled with the second level Beacon spell to get the location of a specific beacon. The caster will need a beacon to lock onto, a high quality and accurate map of the region the beacon is suspected to be in, and a crystal lens worth 50gp that is consumed in the casting.\n\n\nIf the beacon was created by the caster, no unusual preparations are needed; but if the beacon was created by another caster, then she must first cast Locate Beacon on the beacon itself. Preparation similar to that of Identify must be undertaken, clearing and cleaning a space, having silence and stillness, and ridding the room of any other magical items. After the cleansing is done, the Locate Beacon spell can be cast on the enchanted object to understand its resonance, and prepare the caster to seek it out later. Once prepared in this way, the caster need never prepare or attune to the beacon again. An Identify spell cast on the enchanted object will also work to link to the beacon.\n\nWhen a beacon is to be located, a map must be produced and the crystal lens placed on it. The Locate Beacon spell is cast on both the map and the lens (just the one casting) and the caster may then look through the lens at the map to find its location. If the map is detailed and accurate enough, and the beacon is somewhere depicted on the map, it will be seen as a pulsing green light about 1\" in diameter. The beacon is within the area of the light, but not exactly at its center. Two casters locating the same beacon on two different maps, one twice the size of the other and covering the same region, will have two different tolerances. A caster using a desk sized map of the world may only be able to pin the beacon down to a single kingdom. A map of that kingdom might reveal the beacon is in or near a specific city. A map of that city might reveal the beacon is in a neighborhood or perhaps a specific building, depending on specific circumstances.\n\nThe map must be well made, well informed, accurate, and precise. Maps of this quality are often at least 100gp in value. \n\nBeacon and Locate Beacon are often used by powerful merchants and nobles to track larges shipments of money. A single coin may be made a beacon, tossed in with the rest, and if the shipment doesn't get to where it was heading, can be tracked down hopefully before too much is spent or distributed.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -3950,7 +3950,7 @@
     "save": "None",
     "damage": "",
     "description": "This spell creates an ethereal magical hardened shell around a creature the caster points at in range while shouting the words to the spell. This shell exists 90% in the ethereal plane, only coming into the prime material plane in full when an object with enough kinetic energy to cause harm approaches it. The shell has HP equal to 5x the caster level and can block up to half of its remaining hp in damage to any single attack. \n\n\nExample: a 40hp shell could block a 10 damage attack, a 5 damage attack, and then a 8 damage attack (leaving it at 17 hp). If the next attack were to do 9 points of damage, the shell would be broken and the subject would take 1 point of damage (half of 17 rounded down is 8, so the 1 extra damage goes through to the target).\n\nThe shell only blocks kinetic attacks (including falling), so breath weapons, fire, acid, etc. are not obstructed. Furthermore, the shell is activated when attacks come within the area of the shell, so it will trigger on missed attacks that roll at least a modified 10, or on attacks that must past through the shell's space, e.g. missile attacks at creatures behind one with magic shell. \n\nWhenever subjected to an attack, the whole shield becomes visible as a spherical grid. The visibility of the shield decreases as its HP decreases. When finally broken, the shield visually fractures and shatters.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -4007,7 +4007,7 @@
     "save": "1/2",
     "damage": "",
     "description": "The caster draws in the air a portal or doorway which then briefly opens to one of the four elemental planes, letting the raw energy and material of the plane flow into the world. The portal opens for only a second or two, but in this time it is bi-directional.\n\n\nPlane of Fire: When the portal opens, a half sphere of heat and energy bursts forth, enveloping everything within 20' in flames and dealing 8d6 points of fire damage. Creatures in the area of effect can save for half damage.\n\nPlane of Air: A strong gust of fresh air rushes out, blowing over anything not firmly attached to the ground. Creatures within 20' must make a strength check to stay on their feet. If there is nowhere for the air to go, for example if the portal is opened in a sealed room, the pressure in the room raises, but there is no wind. If opened in a hallway or other restricted space the effects are intensified, possibly knocking creatures back. \n\nPlane of Water: 3000' cubic feet (30 x 10 x 10) of fresh water burst forth from the portal. Like a portal to the plane of air, the effects are largely determined by the terrain the portal is opened into.\n\nPlane of Earth: Considering that the plane of earth is solid material, this spell effectively creates a very short lived solid wall.\n\nThere is a very small, but non-zero, chance that the portal opens near a denizen of the plane, which may accidentally or intentionally be swept through the portal and into existence. This creature is not bound in any way. DMs should be careful in deciding if and what ever comes through the portal.\n\nA portal drawn at half the size would produce ¼ the volume, so a halfling opening a portal to the Plane of Water would produce 1500 cubic feet of water.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -4045,7 +4045,7 @@
     "save": "None",
     "damage": "",
     "description": "By holding a piece of glass aloft and projecting the words to the spell, the caster calls into being a unidirectional field of force that reduces the accuracy of incoming missile fire by 5. The shield must be straight and flat, although it need not rest on any surface. The shield is immobile and distorts and reflects light much like a pane of glass.\n\n\nOnce cast it cannot be moved, nor can it be dispelled at will. Creatures, objects, and spells may all pass freely through the shield, although the trajectory of flying objects or creatures will be disrupted slightly.\n\nWhen the spell expires, the shield breaks and falls to the ground, spreading ethereal shattered glass everywhere, which then vanishes in a single round.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -4102,7 +4102,7 @@
     "save": "None",
     "damage": "",
     "description": "This is a more powerful version of the 1st level Lesser Shield spell. It creates the same magical lens, but those standing on the \"inside\" of the lens no longer suffer the associated penalties or visual distortions. The penalties are increased to -3 for melee and -5 for missile attacks.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -4121,7 +4121,7 @@
     "save": "1/2",
     "damage": "",
     "description": "The caster conjures a dinner table filled with food that is only visible to a number of creatures equal to or less than the caster's level. The table, chairs, and place settings are made of the wood used in casting, while the fabric from the casting creates the tablecloth and napkins. These creatures see the table, food, drinks, and stools and are able to interact with them, even though they do not exist. The creatures can eat and drink their fill which nourishes them completely. Once a creature stops eating, they can no longer see the table, chairs, and food.\n\n\nAfter 24 hours, the effects of the meal vanish and the creatures are left as if they had never consumed any of this food or dink. This spell may be chained together day after day, to nourish creatures for a longer period of time, but once the spell wears off, their bodies act as if they had never eaten any of the food. It is possible for someone to survive for a full month on Phantom Feasts and then immediately die of starvation and dehydration when the spell wears off.\n\nIt is up to your DM to determine the effects of starvation or dehydration on your character. ",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -4140,7 +4140,7 @@
     "save": "1/2",
     "damage": "3 + 1 / person",
     "description": "By presenting a part of their body and declaring a feast, the caster imbues themself with magic. The caster, and a number of people up to the caster level, may eat the flesh of the caster. Each person needs but one mouthful of flesh to nourish them for a week, although this spell does not stave off the effects of dehydration. The caster takes an amount of damage equal to the number of people who feast on them plus three (a 4 person party would deal 7 damage to the caster). The caster's flesh quickly regrows, but the damage they take is very real and cannot be healed by magical means.\n\n\nCreatures one size larger than the caster deal 3 damage when they feast, while smaller creatures still deal 1 point of damage. \n\nIt is not uncommon for creatures who use this spell to develop a taste for human flesh (assuming the caster is human). Those who survive on this spell for too long may find themselves repulsed by normal food.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -4178,7 +4178,7 @@
     "save": "None",
     "damage": "",
     "description": "By touching a scroll, map, or any other type of page, and softly speaking the command word, the wizard creates an exact duplicate of the pages touched. These exact duplicates must be made of paper, papyrus, parchment, or other similar material (writing on cloth would work, but writing in clay would not), and contain text, images, or other information. The material must be mundane and of little value. Enchantments are not copied, nor are magical writings. Copying a magic scroll does not allow one to cast a spell from the copied scroll. Casting this spell on trapped writings where the trigger is reading the material will trigger the trap. \n\n\nThe object created appears directly on top of the original, and is the same in all respects (burned edges, misspellings, coffee stains, etc.) but one, the wizard's signature appears somewhere on the documents. If the wizard is copying many pages, his/her signature appears on all of them. A large scroll or map might be considered many pages, ask your DM for specifics.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -4254,7 +4254,7 @@
     "save": "None",
     "damage": "",
     "description": "When an article of clothing is enchanted with this spell it becomes unnaturally hydrophobic. A shirt enchanted thusly could be submerged in a bucket and come out dry. While the intent was to create a wonderful raincoat, an unforeseen side affect is that enchanted items are very difficult to clean. Most other fluids (alcohol, oil, blood, etc.) are repelled. Acids are not.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -4273,7 +4273,7 @@
     "save": "Negate",
     "damage": "",
     "description": "To cast this spell, the caster must draw their own blood onto their fingertip, speak the word, and touch the target. If the target fails their saving throw, they take damage instead of gain life from all nonmagical healing. Magic healing of 3rd level and below heals the very damage it deals, rendering it ineffective. 4th level healing spells will negate the spell instead of healing damage. 5th level healing spells and above will remove the spell in addition to their normal effects. A remove curse or dispel magic spell will also remove the effect.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -4292,7 +4292,7 @@
     "save": "Special",
     "damage": "",
     "description": "This spell works like the abjuration Hold Portal spell, except that it also creates a barrier of force across the portal that keeps out small creatures, liquids, and gasses. The door may still be broken down as per a Hold Portal spell. If this spell were cast upon a portcullis, a mouse could not crawl through the bars nor could a person under the effect of a Gaseous Form spell.\n\n\nCast as a ritual, this spell creates a barrier around the door that prevents the passage of small creatures, objects, liquids, or gasses as long as the door is closed. When the door is opened, the magic is temporarily suspended. This spell confers no extra protections against traditional opening and closing. To prepare the door, the caster must fill all the cracks, gaps, and holes in a doorway with some form of animal fat or blubber. When the gaps are filled (to air tight), the caster may finish the spell which causes the components to vanish. A normal door takes ~10 minutes to properly seal with blubber.\n\nThe door will forever have the faint odor of the animal fat it was sealed with. Expensive rendered fat from particular species that produce no smells can be purchased for 100gp / standard door.\n",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
     {
@@ -4445,7 +4445,7 @@
     "save": "None",
     "damage": "",
     "description": "This spell conjures spirits from another plane that surround the target. They weight nothing, add nothing to encumbrance, and do not interfere with casting or visibility. These spirits interpose themselves between their host and her nearby enemies. Anyone attempting to make an attack against the caster must make a saving throw vs spell or instead attack the spirits. The spirits have AC 13 and hit points equal to 8 + caster level.\n\n\nAdditionally, depending on the material components there is an additional effect.\n\n5 steel coins: earth elemental spirits surround the target, reducing damage by 1 per die from non magical weapon attacks.\n10gp crystal: the spirits have AC 14\nFungus or lichen: the spirits are fey and shed a soft green light for 10 feet in all directions\nHealing potion: spirits have additional hit points as if the potion was consumed.\nHumanoid finger: the spirits those of the dead and impose a -1 to fear saves of all enemies who can clearly see them\nWater, fresh: the subject and their clothes are imbued with water, wetting skin and dampening clothes. Saves vs. fire effects are made at +1\nWater, salt: the spirits are foggy and dense, creating an area of light fog for 10 feet",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -4483,7 +4483,7 @@
     "save": "1/2",
     "damage": "",
     "description": "The caster speaks the words to the spell while holding the essence of the creature in their primary hand. The essence bursts into flame, which the caster then reaches through to pull out an individual of that type who is then bound to the caster's will. Casters cannot summon specific individuals with this spell, and mindless/soulless creatures cannot be bound (jellies, undead, etc.). This spell does not bring any weapons, armor, or equipment that the creature wasn't already wearing.\n\n\nThe caster must physically touch the creature when it pulls it through the flame, but the creature does not appear held in the caster's hand. Instead it appears wherever desired within 10' of the caster.\n\nCreatures that cannot understand the caster will simply attack whoever the caster indicates and cannot be called off once sent to attack. Creatures that can understand the cater will obey verbal commands to the best of their ability, but will not be self destructive. A goblin might be ordered to charge a dragon, but it will not throw itself off a cliff.\n\nThe creature, upon being summoned, may make a check to burst the casters dominance on them. Both sides roll a d10+wil+levelx2 (or hit dice if level is not available), and if the creature meets or beats the caster, the creature is free. Semi-magical creatures get a +5 bonus to their roll, magical creatures get a +10, highly magical creatures get a +15. Natural 1s and 20s have no effect on this roll.\n\nIf the creature successfully bursts the spell, it becomes free willed and usually very angry at the summoner, who it will probably try to destroy.\n\nCreatures that are bound may be dismissed with a gesture and a sound.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -4521,7 +4521,7 @@
     "save": "1/2",
     "damage": "",
     "description": "This divination spell allows a number of creatures to understand and be understood by other recipients of this spell. Each creature that is to understand must have their ears touched by the caster, while each of the creatures that is to be understood must have their mouth (or origin of their speech) touched. All subjects of the spell need to be smeared with ink on their forehead (or equivalent) by the caster, and the caster must continue intoning the words to the spell as they move between recipients. During the casting of the spell, none of the recipients that have been marked may leave the AOE, else their ink fades and they are removed from the spell's effects. It is possible to have 2 people who can speak and 10 people who can listen.\n\n\nWhen the spell ends, which happens when the duration expires, the caster cancels it, or the caster's light concentration is broken, the ink fades from each of the subjects of the spell.\n\nExample: A diviner wishes to hold an audience with a goblin queen and his party. The goblin queen does not speak common, so the diviner touches the ears of the party members, himself, and the queen, while touching the lips of the queen and himself. All are marked with ink. When the spell takes effect, the goblin will only understand the caster, while the party will understand the goblin. This way the party (caster not included) can speak in common without the goblin understanding, but all can understand the goblin.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -4597,7 +4597,7 @@
     "save": "None",
     "damage": "",
     "description": "The recipient of a water breathing spell is able to breathe water freely for the duration of the spell. \n\n\nThe caster can touch more than one creature with a single casting; in this case the duration is divided by the number of creatures touched. \n\nThe reverse, air breathing, enables water-breathing creatures to comfortably survive in the atmosphere for an equal duration.\nThe material component of the spell is a short reed or piece of straw.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -4787,7 +4787,7 @@
     "save": "None",
     "damage": "",
     "description": "The caster traces the footprint or shadow of the object to be summoned, creating an outline of it on the ground. Some surfaces are difficult to create shapes in. Grass, for example, is particularly difficult to work with, but chalk on stone, or a stick in dirt works very well. The object to be summoned must be named and appears after the words are spoken. It is typical of its type, and can contain many different types of materials, but no living things. A caster may summon a carriage, but not the horse to pull it. Summoning an item does not confer an ability to use it. \n\n\nSpecific items cannot be summoned, nor can a look or decorative style be picked. For example, a caster could not summon \"A black carriage\" or \"The queen's carriage\". Moreover, the object must be solid and self contained. The caster cannot fill 400 cubic feet of poison gas or water or broken glass, etc. \n\nThe item appears on the ground in the footprint outlined. The casting time is for the utterance of the spell, and does not include the time needed to make the outline, which is variable. ",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -4882,7 +4882,7 @@
     "save": "1/2",
     "damage": "",
     "description": "The caster kneels on the ground, or stands before an elevated flat surface, and mimes the shape of the chest, inserting the martial component (a key) into space where the lock on the chest would be. When the key is released from the caster's hand, it holds its place in mid air while a chest materializes around the key. The chest will only form if there is a surface for it to rest on.\n\n\nThe chest is unlocked and any items that can fit inside may be placed in there. Once the caster has placed what they want in the chest, they can close the lid and remove the key. Once the key is removed, the chest vanishes into a small dimensional pocket where it is untouchable by any but extreme means. The key remains on the same plane as the caster. This key, when placed in any lock by any creature, will summon the chest at the feet (or nearby flat surface) of its holder, and the key will dissolve. The chest will fizzle after 5 minutes unless the Dimensional Chest spell is cast again, in which case the same chest can be sent back without having to move items between chests. A fizzled chest dumps its contents where the chest was resting.\n\nThe chest will say in extra dimensional space until recalled. Should a wizard lockup their goods and then be eaten by a large creature, it may be many years or centuries until someone finds the key again, but the chest will still be waiting. The extra dimensional chest space is only as large as the chest and the only air there is what is in the chest. Living creatures should not be put in the chest if they wish to survive.\n\nWhile the chest is in extra dimensional space, the key used to summon it radiates moderate magical energy. The key is almost indestructible, but if destroyed immediately summons the chest back at the point of its destruction. If the key is tossed into a pit of lave, it will be destroyed, the chest will be summoned into the pit of lava, and all items in the chest will (more than likely) be destroyed too.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -5110,7 +5110,7 @@
     "save": "None",
     "damage": "",
     "description": "This spell is identical in all regards to the 2nd level Beacon spell, excepting that it's duration is Permanent. ",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -5148,7 +5148,7 @@
     "save": "None",
     "damage": "",
     "description": "Working much like the mending spell, this spell is able to fix damaged (but not broken) objects that are simple in construction and huge in size. 300' cubic feet of congruent area may be repaired per casting. To cast the spell, the wizard must run their hands over the whole of the surface.\n\n\nExample: a 20 foot section of a palisade wall (1' thick x 20' long x 15' high) that was damaged by a catapult can be made new again, or a 4' section of a stone wall (5' thick x 4' long x 15' high).",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -5224,7 +5224,7 @@
     "save": "1/2",
     "damage": "",
     "description": "This spell will rollback time on any one inanimate and nonmagical object, room, or building, reverting to a state it was in 1 minute ago per level. Thus a room destroyed by a fireball spell could be restored, or a broken sword mended.\n\n\nThe AoE is based on cube side length. A 9th level caster could affect a room that fully fits into a cube 90' on a side. No part of the object to be rewound can be outside the cube, but the cube can be oriented any way.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -5604,7 +5604,7 @@
     "save": "1/2",
     "damage": "",
     "description": "With a closing of their eyes and a snap of their fingers, the caster projects an incorporeal image of themselves somewhere they can see. This projection can see, speak, and hear on behalf of the caster who must keep their eyes closed for the duration of the spell. Whatever the caster says or does, the projection says or does, the sole exception being the eyes of the projection are open despite the caster's eyes being closed. The projection has AC 10 and 0 hp; it can be dispelled by being disrupted with any physical interaction (such as waving a hand through the projection).\n\n\nThis spell works with any form of vision, including spells such as Clairvoyance, allowing the caster to Clairvoyance into an area, and then project themselves there.\n\nA lining of silver or lead around a room blocks the spell from being cast into the area, and blocks sight to the area from the projection.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -5699,7 +5699,7 @@
     "save": "None",
     "damage": "",
     "description": "Similar to the 2nd level spell Minor Sealing Ward, this spell creates a ward that is placed on an object. The key differences between these two spells are as follows. Sealing Ward deals 6d6 damage, and any closeable object is held shut as if it had a Hold Portal spell cast upon it.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -5775,7 +5775,7 @@
     "save": "None",
     "damage": "",
     "description": "When cast, a spectral sentry is summoned into being. The sentry is composed of a whitish misty vapor that resembles a watchful soldier clad in chain mail with a spear, sword, axe, or mace. The sentry is telepathically linked to the caster and will warn them (including a brief mental image) of any unusual activity within their range of sight. The wizard is woken, if asleep, up anytime the sentry reports back. The sentry has 18 perception and is never distracted, however it only warns of unusual activity. Any target that enters the area warded by the sentry (not just seen by the sentry) may be attacked at the wizard's discretion.\n\n\nA spectral sentry cast in city street at night would begin to alert the wizard as people woke up and started walking around town, but as people moving through the streets become the norm, the sentry stops reporting them. A sentry placed in the woods would probably be reporting back to the wizard fairly often as wildlife moves through the area.\n\nThe sentry fights as a warrior equal to 1/2 the wizard's level (rounded down).\n\nThe sentry can be dispelled at will as long as the mental connection between the two is established.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -5813,7 +5813,7 @@
     "save": "1/2",
     "damage": "",
     "description": "This spell is identical to the 3rd level Summon Creature spell, except that the caster may summon a number of creatures equal to their level.\n\n\nThe caster makes one opposed burst check check at -1 for every two creatures summoned (rounded up), that each creature contests with their own roll. Each round that a bound creature and a freed creature from the same casting are in the same area gives the bound creature another chance to burst the spell. \n\nA 7th level caster with 14 Wil who summons 7 ogres (4HD, 10 Wil) would have opposed rolls as follows.\n\nCaster: 1d10+14+7x2-4 -> 1d10+24\nOgres: 1d10+10+4x2 -> 1d10+18",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -6346,7 +6346,7 @@
     "save": "None",
     "damage": "",
     "description": "By means of this spell, the wizard splits the reality of an object. While retaining the same basic form, the object is divided into two entities, each of half the mass of the original. Both objects are one and the same, only existing in both places, half way, at the same time. What one experiences, so does the other - but that experience is relative only to the object. For example, a tablet with soft clay inlaid could be written on and the text would appear on the other in real time; however; a tablet turned upside down, lifted, thrown, moved, or otherwise translated does not affect the positioning, rotation, or velocity of the other. A sword thusly split could be wielded in battle by two different people without problem.\n\n\nHowever, this split existence is extremely fragile. While each object is the same size as the whole form, it only contains half the mass, an thus has half the strength, durability, and weight. A sword split by this spell would be fragile and of little value in combat. Any blow to the subject must roll its enchanter's level or less on a d20 or the item breaks the spell. Any damage, mutation, or phase change to the item breaks the spell. Blinking, teleporting, plane shifting, crossing extradimensional boundaries, or being effected by any number of spells breaks the spell. Such spells include, but are not limited to: Haste, enlarge, magic mouth, dispel magic, and any successful attack spell.\n\nWhen the spell is broken the object fully materializes in one place and vanishes from the other. If the object realizes in the place where the action that broke the spell exists, the object suffers the normal effects it would there. A clay tablet made duo and struck with a sword has an equal chance of realizing either in the path of the sword, or in its other place - potentially being destroyed in the first case and presumably safe in the second.\n\nAnd Identify or Locate Beacon spell may reveal the location of the other reality when cast on an item split by this spell. For Identify, treat the location of the object as a property to be checked for. For Locate Beacon, an intelligence check is needed. This check can be made once per level.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -6422,7 +6422,7 @@
     "save": "None",
     "damage": "",
     "description": "This spell works the same as the 3rd level Personal Shield spell but completely surrounds the subject instead of only covering their front. The penalties are increased to -5 for melee and -8 for missile attacks",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -6479,7 +6479,7 @@
     "save": "1/2",
     "damage": "",
     "description": "This spell functions in all respects like the 2nd level Magic Circle spell, except that those outside the circle may cast spells into the circle. They still may not physically cross the barrier.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -6897,7 +6897,7 @@
     "save": "None",
     "damage": "",
     "description": "When cast, a spectral sentry is summoned into being. The sentry is composed of a whitish misty vapor that resembles a watchful soldier clad in chain mail with a spear, sword, axe, or mace. The sentry is telepathically linked to the caster and will warn them (including a brief mental image) of any unusual activity within their range of sight. The wizard is woken, if asleep, up anytime the sentry reports back. The sentry has 18 perception and is never distracted, however it only warns of unusual activity. Any target that enters the area warded by the sentry (not just seen by the sentry) may be attacked at the wizard's discretion.\n\nA spectral sentry cast in city street at night would begin to alert the wizard as people woke up and started walking around town, but as people moving through the streets become the norm, the sentry stops reporting them. A sentry placed in the woods would probably be reporting back to the wizard fairly often as wildlife moves through the area.\n\nThe sentry fights as a warrior equal to 1/2 the wizard's level (rounded down).\n\nThe sentry can be dispelled at will as long as the mental connection between the two is established.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -7125,7 +7125,7 @@
     "save": "None",
     "damage": "",
     "description": "The great, powerful, and aged Waltraud created this spell to replace wall sections in her manor with one way windows that also functioned as emergency escape routes. Glass was removed, and the Wall of Wonder (also known as the Waltraud's One Way Window) was cast in it's place. From the inside, this section is mostly transparent and can be walked through. Any object or creature passing through the wall disrupts the wall for 1 round. Casual inspection from the inside shows the form and some visual details of the illusion. From the outside, the wall appears to conforms to the surface details of the surrounding wall, up to and including touch and pressure. The wall will physically resist outside pressure, impact, and forces as if made from the same material surrounding it with a thickness of one inch. Thus a Wall of Wonder will look, feel, and behave as a real wall would to one on the outside, but act as an opening to one on the inside.\n\n\nThis spell must be cast in such a way as to seal or plug a hole in an otherwise functional wall, tunnel, portal, etc. It must connect with real and solid materials on all 4 sides made of the same material. Should a section of wall or material that the spell connects to be destroyed or removed, the spell fizzles. The wall provides no support to things above, below, beside or behind it. For example, the spell could fill a stone doorway, but not a stone doorway with a wooden threshold or baseboard. \n\nMissile fire through the wall from the inside is possible, as is spell casting, but either of these actions will cause the illusion to vanish for 1 round. Should the illusion rematerialize while something is in it's path, it will spend another round inactive.\n\nHorses, dogs, and other simple animals may be confused or spooked by semitransparent nature of the wall (from the inside) and may hesitate to pass through it unless they are carefully coaxed. Like all things, once an animal becomes used to the wall, it may pass through it with only minor hesitation. Training a war horse to charge, or a messenger bird to fly, through Waltraud's Wall of Wonder is difficult.\n\nThe accompanying 2nd level, \"Reveal Wonderous Walls\" spell disrupts Waltraud's Wall of Wonder if cast directly on a segment of the wall. Detect magic cast from the outside will not reveal the wonderous nature of the wall. An Identify spell cast on a wall segment will reveal its nature, but is impractical for finding hidden wall segments as its casting time is so long and its materials so expensive.\n\nTo cast the spell, first the caster outlines a 1 foot square section with both hands while speaking the words, then they blow mithril dust onto that segment of wall before moving onto the next area and repeating the process until the whole wall is done. All segments must be completed in one casting and without interruption. Interruption breaks the casting, fizzling the existing wall sections. The wall may be no smaller than 1 square foot, no larger than 300 square feet. For every 1 hour of casting, the caster must make a constitution check to maintain the exact detail of concentration. Failure indicates the caster has made a small mistake the the spell fails.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -7563,7 +7563,7 @@
     "save": "None",
     "damage": "",
     "description": "This spell functions identically to the 3rd level False Detection spell, except that it can create residue of any spell 6th level or lower.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -7848,7 +7848,7 @@
     "save": "None",
     "damage": "",
     "description": "To prepare for this spell, the caster must build a very hot fire. This can be through making a large fire, or a small fire of materials that burn very hot. The caster must also have an amount of sand on hand. Once the fire has reached the required intensity, the caster imbues a handful of sand with the magic of the spell and tosses it into the flames where they are quickly and brightly incinerated in an instant, and altering the flames to act as a window into the past. \n\n\nAny who look upon the flames will see the same event or location as if viewed through a window whose shape flickers with the flame. The caster chooses a location and a time when enchanting the first handful of sand, and can change location and time with each subsequent imbued handful they add to the fire.\n\nThe location must be public, something generally accessible to anyone, unless the caster adds to the fire a flammable personal affect of a specific person whose past they wish to view. The item should be relatively whole and personal in nature. Alternatively, a drop of blood or the root of a hair, freshly procured in the last 24 hours, may be used in lieu of a personal item. The location can be changed with a handful of sand. Regardless whether the caster is viewing a public area, or a specific person, a room lined with lead or silver will block the spell and the caster will see nothing but flames.\n\nThe time frame is limited to the past, viewed in real time, and limited to increments of exactly 1 year. Should a caster wish to view the events of the previous day, they would have to wait a year minus a day to see them. The time may be changed with a handful of sand to any increment of 1 year that they wish.\n\nPostcognition can be channeled for as long as the caster is no more than 15 from the flames, their intensity is maintained, and the caster maintains concentration on the spell. They may converse with those around them as long as it is about what is happening in the fires. Other conversation is too distracting and will cause the caster to falter. Taking damage requires making a saving throw to maintain concentration.\n\nBecause the onlooker sees the events only where flames are, one bigger or closer the flames, the better view the onlooker will have. Frequent users of this spell often have singed hairs and small burns on themselves, as well as a distant and unchanging gaze that feels removed from the world.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -7962,7 +7962,7 @@
     "save": "Negate",
     "damage": "",
     "description": "This spell summons one specific living person from wherever they are to in front of the caster. The person being summoned gets a saving throw to avoid the affects of the spell. If they pass, they are aware that they were being summoned. The summoned person is not enthralled in any way and is free to act as they please. When the spells duration expires, the subject returns to their place of origin, along with, and only with, the objects they brought with them. \n\n\nThe person must be on the same plane of existence to be targeted.\n\nIf the person is touching or wearing anything of silver or lead, the spell fails. Coins in a pocket are not touching the person directly, but a cloak lined with silver threads does count as touching.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
@@ -9656,7 +9656,7 @@
     "save": "None",
     "damage": "",
     "description": "By means of this spell the caster can hear their true name being spoken by any creature in range. The caster can picture the speaker in their mind and know their location. If the caster wishes, they may observe the speaker as if clairvoyance, clairaudience, and comprehend languages were cast, up to 1 hour. As long as the casters name continues to be brought up in the conversation, the 1 hour duration refreshes. Should another person within range speak the caster's name, the caster can picture that speaker in their mind, know their location, and choose to scry upon them. In doing so, any other scrying attempts end and cannot be restarted unless the caster's name is spoken again.\n\n\nTo cast this spell, the diviner must find a comfortable position, usually seated on a cushion but not necessarily, center her mind, and clear her thoughts, in a process that takes 1 turn. Hereafter she begins to hear her name spoken by those in range, and get glimpses of those speaking her name. If the caster is the subject of much gossip in a large city, she may be bombarded by faces, locations, and her name. At any point, the caster may mute her attunement to those speaking her name. This is useful when scrying upon a subject and wishing to be uninterrupted, or when carrying a conversation without wanting to break the concentration on the spell.\n\nThe range of the spell is limited to the current plane of existence, and grows from nothing at a rate of 60mph (1 mile a minute), centered on the caster. As long as the caster maintains concentration, the area of effect will continue to grow. If the caster wishes to limit the area they are listening to, they may listen to specific bands no smaller than 1 mile in width. \n\nExample: Quinti sits atop her tower in the center of the city which she rules and casts Listen. After a turn of casting, she begins to hear the people in her city that are speaking about her. The city is large, and she is its ruler, so her name is said every few minutes. Quinti looks in on a conversation at a tavern where tales of her exploits are told, she spies the wife of one of her guardsmen arguing about how much time he spends at work and lamenting his close relationship with Quinti, and she views a woman in the dungeons praying to Velthara (goddess of Vengeance) to rend Quinti head to toe. After an hour of this, the range of the spell has extended to cover nearby towns, so she changes the area of effect to a band 1 mile wide, centered 25 miles out. Now Quinti can hear her name being spoken by anyone between 24.5 and 25.5 miles from her. Quniti does this because there is a town 25 miles to the east that rebels have been recruiting from and she is hoping to catch them in conversation, but instead hears her name said by a dying dwarf, in dwarven, 25 miles under the city.\n\nThe caster must remain motionless to continue concentration, which requires Constitution checks every so often, with cumulative -1 penalties after the first. A caster who is seated comfortably makes checks every 8 hours, seated normally makes checks every 4 hours, and standing make checks every hour. Environmental effects may shift these times. Seated comfortably in freezing temperatures might require checks every 2 hours. Outside events may force additional checks. \n\nFor example, Quinti is traveling on the road and stops at an inn for the night. She has a messenger who is supposed to call out to her and relay a message an hour after sundown, so she retreats to her room at sundown and casts Listen. 10 minutes into the spell, the innkeeper comes into her room to change the sheets, see's what's going on, and leaves the sheets on the foot of the bed Quinti is casting from, and exits the room. The DM rules this is enough of a disturbing event that it might break her concentration, so she calls for a con check, which Quinti passes. She continues to wait for her messenger who doesn't speak up in the first 8 hours. Concerned, she decides to continue channeling and listening to the range she expects, but now must make a con check. Since she has already made 1 check, she must now make this second one at -1. When the innkeeper comes in to bring her breakfast at sun up, she is forced to make a check at -2, which she fails. Quinti's 9th level spell was interrupted by a too-eager innkeeper who must now face her wrath.",
-    "source": "Koibu"
+    "source": "Nathan"
   },
 
   {
