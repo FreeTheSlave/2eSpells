@@ -3803,25 +3803,6 @@
 
   {
     "level": 3,
-    "name": "Nathan's Shadowy Grasp",
-    "school": "Illusion",
-    "class": "Wizard",
-    "verbal": true,
-    "somatic": true,
-    "material": true,
-    "materials": "Black or gray silk scarf (50gp)",
-    "range": "120 feet",
-    "aoe": "1 creature",
-    "castingTime": "3",
-    "duration": "1 round / level",
-    "save": "Negate",
-    "damage": "1d4 / round",
-    "description": "After spending time amongst the elves in the border of they feywild, Nathan developed this variant of Hold Person. Upon utterance of the spell, the caster tosses one end of a darkened silk scarf toward the target while holding the other end, extending a shadow along the ground in a path to the target who must make a saving throw vs. spell at -3 or be held, levitated 1 foot off the ground, and choked - cutting off all air to the target and suffering 1d4 points of damage per round. The target must follow the rules for holding their breath. A natural 1, 2, or 3 on a failed save indicates the target did not get a good gulp of air before the spell took effect. Once the spell has been cast, the caster may speak and act normally, even breaking line of sight to the target. The target may croak out a few words over the course of the spell (limited to the amount of air they already have in their lungs), but can make no other movements and is subject to all the other effects of Hold Person. The spell may be dismissed with a gesture.\n\n\nThe range of this spell, 120 feet, is based on the ground path between the caster and the target - e.g. someone standing 50 feet away on the other side of a 100 foot canyon would be out of range.",
-    "source": "Nathan"
-  },
-
-  {
-    "level": 3,
     "name": "Lance of Disruption",
     "school": "Evocation",
     "class": "Wizard",
