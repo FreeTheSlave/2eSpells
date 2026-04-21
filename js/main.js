@@ -365,7 +365,7 @@ for(var i = 0; i < godButtons2.length; i++){
 // All/Animal/Astral/Chaos/Charm/Combat/Creation/Divination/Air/Earth/Fire/Water/Guardian/Healing/Law/Necromantic/Numbers/Plant/Protection/Summoning/Sun/Thought/Time/Travelers/War/Wards/Weather
 var godFilterArray2 = [
     [1, 0, 0, 1, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 2, 0, 0, 1, 2, 0, 0, 1, 0], // Asheutal
-    [1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1], // Relkor
+    [1, 0, 1, 1, 2, 0, 0, 0, 0, 1, 0, 1, 2, 0, 2, 1, 1, 0, 0, 0, 0, 2, 0, 0, 2, 0, 2], // Relkor
     [1, 0, 2, 0, 2, 0, 2, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 2, 2, 0, 1, 0, 2, 0, 0, 0, 1], // Illumis    
 ];
 
